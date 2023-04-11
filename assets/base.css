@@ -3218,9 +3218,6 @@ details-disclosure > details {
   box-sizing: border-box;
 }
 
-body {
-  padding: 30px;
-}
 
 .tabset {
   width: 100%;
@@ -3228,6 +3225,7 @@ body {
 label {
     width: 50%;
 }
+
 /* cls013 */
 .color-background-2 .button--secondary{
   background: #fff;
@@ -3236,3 +3234,60 @@ label {
 s.price-item.price-item--regular {
   display: none;
 }
+
+
+/* cls007 start */
+.announcementflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: none;
+  
+  animation: scroll 20s linear infinite;
+  justify-content: space-between;
+
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+}
+100% {
+    transform: translateX(calc(150px * 10));
+}
+}
+.ammouncpading{
+    display: block;
+  position: relative;
+  z-index: 1;
+  padding: 8px 0;
+  overflow: hidden;
+}
+.clstarget h2.image-with-text__heading.inline-richtext.h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #100f0d;
+}
+.clstarget .image-with-text__text.rte.body p{
+  font-size: 24px;
+  line-height: 29px;
+  color: #100f0d;
+}
+.clstarget a.button.button--primary {
+  font-size: 20px;
+  line-height: 25px;
+}
+.bgcolor, .clstarget .image-with-text__content, .clstarget {
+  background-color: #efe5da;
+}
+.bgcolor .image-with-text__grid--reverse{
+  align-items: center;
+}
+.customcollection .collection-hero__image-container{
+  margin-left: 0px;
+}
+/* cls007 end */
+

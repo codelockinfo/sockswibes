@@ -32,7 +32,11 @@
       assign ratio = 1
     endif
   -%}
+
   <div class="card-wrapper product-card-wrapper underline-links-hover cls">
+
+  <div class="collectiontarget card-wrapper product-card-wrapper underline-links-hover">
+
     <div
       class="
         card
@@ -334,7 +338,7 @@
     </div>
   </div>
 {%- else -%}
-  <div class="product-card-wrapper card-wrapper underline-links-hover">
+  <div class=" product-card-wrapper card-wrapper underline-links-hover">
     <div
       class="
         card
@@ -362,7 +366,7 @@
         </div>
       </div>
       <div class="card__content">
-        <div class="card__information">
+        <div class=" card__information">
           <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
