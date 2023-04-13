@@ -3398,6 +3398,9 @@ i.fa.fa-instagram{
 .announcement-bar__item .shape-circle{
       width: auto;
 }
+.footerbackground {
+  background-color: #000;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
