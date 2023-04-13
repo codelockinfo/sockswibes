@@ -3330,6 +3330,7 @@ s.price-item.price-item--regular {
     text-align: center;
     line-height: 30px;
   padding: 10px 0px;
+      margin: 0;
 }
 .lemtitle {
     font-size: 72px;
