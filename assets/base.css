@@ -3418,6 +3418,12 @@ i.fa.fa-instagram{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.mentionall a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
