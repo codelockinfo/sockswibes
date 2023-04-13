@@ -3280,9 +3280,7 @@ s.price-item.price-item--regular {
   font-size: 20px;
   line-height: 25px;
 }
-.bgcolor, .clstarget .image-with-text__content, .clstarget {
-  background-color: #efe5da;
-}
+
 .bgcolor .image-with-text__grid--reverse{
   align-items: center;
 }
