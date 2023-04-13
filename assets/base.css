@@ -3424,7 +3424,10 @@ i.fa.fa-instagram{
     text-decoration: none;
     font-size: 16px;
 }
-
+l.list-menu.list-menu--inline li a span {
+    font-size: 17px;
+    font-weight: 600;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
