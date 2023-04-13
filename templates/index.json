@@ -183,11 +183,19 @@
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_7b02eacd-12c0-498f-9ce7-0f589d23fd2b.webp",
             "subtitle": "EXPERT FORMULATED"
           }
+        },
+        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
+            "subtitle": "PREMIUM BOTANICALS"
+          }
         }
       },
       "block_order": [
         "d6ef77cb-8585-46f1-91c4-e30cf5543686",
-        "ca5c5473-56cc-43ad-8227-0727e7ada6a6"
+        "ca5c5473-56cc-43ad-8227-0727e7ada6a6",
+        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1"
       ],
       "settings": {
         "lemotitle": "Lemme Get Real Results",
