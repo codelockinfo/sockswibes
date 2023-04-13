@@ -3287,5 +3287,124 @@ s.price-item.price-item--regular {
 .customcollection .collection-hero__image-container{
   margin-left: 0px;
 }
+
+.boxcontainflex1 {
+    flex: 0 0 25%;
+    max-width: calc(25% - 20px);
+    margin: 0 10px;
+  border: 1.5px solid #000;
+    border-radius: 20px;
+}
+.boxcontainflex1 img{
+  border-radius: 20px;
+}
+
+.boxcontainflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.signlineflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  border-top: 1.5px solid #000;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+.subtosubtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.signlineflex i, .signlineflexdesign i {
+    color: #fff;
+    background-color: #bc6c25;
+    padding: 10px;
+    border-radius: 50%;
+}
+.subtitle {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+  padding: 10px 0px;
+}
+.lemtitle {
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+.lemmantitle {
+    margin-bottom: 25px;
+}
+.signlineflexdesign{
+      display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+      background-color: #fff;
+}
+.signlineflexdesign {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    margin-bottom: 12px;
+    border-radius: 50px;
+}
+
+.mobileversion{
+     display: none;
+}
+.mainsocialflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+}
+.socialogistic i {
+    font-size: 25px;
+    background-color: #efe5da;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border-radius: 50px;
+    color: #000;
+}
+i.fa.fa-instagram{
+      padding: 10px 12px;
+}
+.footer__block.footer__block--menu {
+    width: 25%;
+    max-width: 100%;
+}
+.clsfottertarget .footer__block-list{
+  flex-wrap: wrap;
+     gap: unset;
+}
+.clsfottertarget .footer__block--newsletter{
+      margin-top: 4%;
+}
+.announcement-bar__item .shape-circle{
+      width: auto;
+}
+@media only screen and (max-width: 1024px) {
+.desktop{
+      display: none;
+}
+  .mobileversion{
+        display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+.signlineflexdesign{
+      padding: 7px 3px 7px 8px;
+}
+}
 /* cls007 end */
 
