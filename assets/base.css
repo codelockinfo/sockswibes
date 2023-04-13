@@ -3409,6 +3409,15 @@ i.fa.fa-instagram{
 .footerbackground .footer-block__newsletter {
     text-align: left;
 }
+.footerbackground .footer__copyright.caption{
+  
+    width: 100%;
+}
+.mentionall{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
