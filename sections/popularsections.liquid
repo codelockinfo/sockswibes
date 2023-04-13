@@ -1,12 +1,81 @@
+<div class="populatesction">
+  <div class="popularcontain section">
+    <div class="lemmantitle">
+      <h2 class="lemtitle">{{ section.settings.lemotitle }}</h2>
+      <h4 class="subtitle">{{ section.settings.lenosub }}</h4>
+    </div>
+    <div class="boxcontainflex desktop">
+      {% for block in section.blocks %}
+        <div class="boxcontainflex1">
+          <div class="boxcontainflexcontan">
+            <div>
+              <img src="{{ block.settings.kome | img_url:'master' }}" class="komimage">
+            </div>
+            <div class="signlineflex">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="signaturebox mobileversion">
+      <div class="signupflexmobile">
+        {% for block in section.blocks %}
+          <div class="signupflex1">
+            <div class="signlineflexdesign">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
+{
+"name": "popularsections",
+
+"settings": [
+{
+  "id" : "lemotitle",
+  "type" : "text",
+  "label" : "Heading"
+},
+{
+  "id" : "lenosub",
+  "type" : "text",
+  "label" : "Sub Title"
+}
+],
+"blocks":[
+{
+"type" : "block",
+"name" : "block",
+"settings" : [
+    {
+ "id": "kome",
+ "type": "image_picker",
+  "label": "Image"
+ },
   {
-    "name": "Section name",
-    "settings": []
+  "id" : "subtitle",
+  "type" : "text",
+  "label" : "Sub Title"
+}
+]
+}
+
+],
+"presets" : [
+{
+  "name" : "popularsections",
+  "category" : "popularsections"
+
   }
+]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
