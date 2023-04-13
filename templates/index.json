@@ -190,12 +190,20 @@
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
             "subtitle": "PREMIUM BOTANICALS"
           }
+        },
+        "9ebe8119-c81a-4089-a21f-2d46a0988e9d": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp",
+            "subtitle": "PREMIUM BOTANICALS"
+          }
         }
       },
       "block_order": [
         "d6ef77cb-8585-46f1-91c4-e30cf5543686",
         "ca5c5473-56cc-43ad-8227-0727e7ada6a6",
-        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1"
+        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1",
+        "9ebe8119-c81a-4089-a21f-2d46a0988e9d"
       ],
       "settings": {
         "lemotitle": "Lemme Get Real Results",
