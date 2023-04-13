@@ -8,13 +8,29 @@
         "1eb756bd-343d-4266-a787-0d49105d545b": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "<strong>SERVICE CLIENT<\/strong>",
             "menu": "footer1"
+          }
+        },
+        "0c168b99-5dc5-45a3-99ab-435a57fafbc8": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>EN SAVOIR PLUS<\/strong>",
+            "menu": "footer2"
+          }
+        },
+        "6b5a92d1-65c4-47af-a4ae-ac50935ae343": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>INFO LIVRAISON<\/strong>",
+            "menu": "info-livraison"
           }
         }
       },
       "block_order": [
-        "1eb756bd-343d-4266-a787-0d49105d545b"
+        "1eb756bd-343d-4266-a787-0d49105d545b",
+        "0c168b99-5dc5-45a3-99ab-435a57fafbc8",
+        "6b5a92d1-65c4-47af-a4ae-ac50935ae343"
       ],
       "settings": {
         "color_scheme": "background-1",
