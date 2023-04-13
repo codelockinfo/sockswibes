@@ -3402,7 +3402,7 @@ i.fa.fa-instagram{
   background-color: #000;
 }
 .footer-block__details-content .list-menu__item--link, .copyright__content a {
-    color: #fff;
+    color: #fff !important;
 }
 @media only screen and (max-width: 1024px) {
 .desktop{
