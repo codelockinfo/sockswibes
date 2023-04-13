@@ -3401,7 +3401,7 @@ i.fa.fa-instagram{
 .footerbackground {
   background-color: #000;
 }
-.footer-block__details-content .list-menu__item--link, .footerbackground h2 {
+.footerbackground .footer-block__details-content .list-menu__item--link, .footerbackground h2 {
     color: #fff !important;
 }
 @media only screen and (max-width: 1024px) {
