@@ -3403,6 +3403,9 @@ i.fa.fa-instagram{
 .footerbackground .footer-block__details-content .list-menu__item--link, .footerbackground h2 {
     color: #fff !important;
 }
+.newsletter-form{
+      margin: 0;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
