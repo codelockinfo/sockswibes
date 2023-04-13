@@ -143,8 +143,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Le must-have pour vos pieds",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -174,28 +174,28 @@
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_a8f3538d-53eb-47fd-9027-b17680868545.webp",
-            "subtitle": "CLINICALLY-STUDIED INGREDIENTS"
+            "subtitle": "FIL D'ECOSSE DE HAUTE QUALITE"
           }
         },
         "ca5c5473-56cc-43ad-8227-0727e7ada6a6": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_7b02eacd-12c0-498f-9ce7-0f589d23fd2b.webp",
-            "subtitle": "EXPERT FORMULATED"
+            "subtitle": "RAFINÉE ET INTEMPORELLE"
           }
         },
         "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
-            "subtitle": "PREMIUM BOTANICALS"
+            "subtitle": "DURABILITÉ ET RESISTANCE"
           }
         },
         "9ebe8119-c81a-4089-a21f-2d46a0988e9d": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp",
-            "subtitle": "PREMIUM BOTANICALS"
+            "subtitle": "CHAUSSETTE RESPIRANTE"
           }
         }
       },
@@ -206,8 +206,8 @@
         "9ebe8119-c81a-4089-a21f-2d46a0988e9d"
       ],
       "settings": {
-        "lemotitle": "Lemme",
-        "lenosub": "The twist? So delicious you won't believe they're good for you.The twist? So delicious you won't believe they're good for you."
+        "lemotitle": "faites de chaque pas une expérience inoubliable !",
+        "lenosub": "Tellement confortable que vous voudriez dormir avec"
       }
     }
   },
