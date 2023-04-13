@@ -352,6 +352,15 @@
 <!--         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small> -->
+
+            <p class="footer__copyright text-sm text-subdued">
+            <p><a href="{{ section.settings.urldetail1 }}">Mentions legales</a></p>
+            <p><a href="{{ section.settings.urldetail2 }}"> Politique de rembousement</a></p>
+            <p><a href="{{ section.settings.urldetail3 }}"> CGV</a></p>
+            <p><a href="{{ section.settings.urldetail4 }}"> Livraisons</a></p>
+            <p><a href="{{ section.settings.urldetail15}}"> Pas de vente de donnés</a></p>
+          </p>
+        
         <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
