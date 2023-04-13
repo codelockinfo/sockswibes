@@ -79,6 +79,21 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+
+                    {%- when 'socialicon' -%}
+                <div class="mainsocialflex">
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
