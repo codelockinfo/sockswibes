@@ -25,12 +25,20 @@
             "heading": "<strong>INFO LIVRAISON<\/strong>",
             "menu": "info-livraison"
           }
+        },
+        "f27328e2-e7c0-48e8-a338-9e46ec10f76f": {
+          "type": "socialicon",
+          "settings": {
+            "iconurl1": "",
+            "iconurl2": ""
+          }
         }
       },
       "block_order": [
         "1eb756bd-343d-4266-a787-0d49105d545b",
         "0c168b99-5dc5-45a3-99ab-435a57fafbc8",
-        "6b5a92d1-65c4-47af-a4ae-ac50935ae343"
+        "6b5a92d1-65c4-47af-a4ae-ac50935ae343",
+        "f27328e2-e7c0-48e8-a338-9e46ec10f76f"
       ],
       "settings": {
         "color_scheme": "background-1",
