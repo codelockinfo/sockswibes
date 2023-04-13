@@ -169,6 +169,18 @@
     },
     "18c70db3-b7d4-4670-a7b7-e7040630bae3": {
       "type": "popularsections",
+      "blocks": {
+        "d6ef77cb-8585-46f1-91c4-e30cf5543686": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_a8f3538d-53eb-47fd-9027-b17680868545.webp",
+            "subtitle": "CLINICALLY-STUDIED INGREDIENTS"
+          }
+        }
+      },
+      "block_order": [
+        "d6ef77cb-8585-46f1-91c4-e30cf5543686"
+      ],
       "settings": {
         "lemotitle": "Lemme Get Real Results",
         "lenosub": "The twist? So delicious you won't believe they're good for you.The twist? So delicious you won't believe they're good for you."
