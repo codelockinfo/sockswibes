@@ -3337,6 +3337,11 @@ s.price-item.price-item--regular {
     font-weight: bold;
     text-transform: capitalize;
     line-height: 80px;
+      margin: 0px 0px;
+}
+.img.komimage {
+    width: 100%;
+    max-width: 100%;
 }
 .lemmantitle {
     margin-bottom: 25px;
