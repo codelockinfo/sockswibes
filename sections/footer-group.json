@@ -43,7 +43,7 @@
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Soyez informé de nos prochaines soldes,événements...",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
@@ -52,7 +52,12 @@
         "show_policy": false,
         "margin_top": 36,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "urldetail1": "",
+        "urldetail2": "",
+        "urldetail3": "",
+        "urldetail4": "",
+        "urldetail5": ""
       }
     }
   },
