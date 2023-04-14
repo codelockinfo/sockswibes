@@ -87,11 +87,20 @@
       ],
       "settings": {
       }
+    },
+    "df8e83d5-da5e-463d-b54f-5f1f309b1372": {
+      "type": "marque_section",
+      "settings": {
+        "heading": "<span>GLOBAL CHANGE  AWARD 2022<\/span>",
+        "bg-color": "#c5ff89",
+        "clrmer": ""
+      }
     }
   },
   "order": [
     "76649721-9a49-4707-8390-5f1bd40b4493",
     "header",
-    "announcement-bar"
+    "announcement-bar",
+    "df8e83d5-da5e-463d-b54f-5f1f309b1372"
   ]
 }
