@@ -3439,6 +3439,14 @@ l.list-menu.list-menu--inline li a span {
       font-size: 18px;
     font-weight: 600;
 }
+.signlineflex2 {
+    flex: 0 0 85%;
+    max-width: 85%;
+}
+.signlineflex1 {
+    flex: 0 0 15%;
+    max-width: 15%;
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
