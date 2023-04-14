@@ -60,7 +60,7 @@
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {% if option.name  == "pack" %}{% endif %}
+      {% if option.name  == "pack" %}{% if value == "1 Pack"  %} {% elsif value == "2 Pack"  %} {% elsif value == "3 Pack"  %}{% endif %}{% endif %}
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
