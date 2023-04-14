@@ -60,7 +60,7 @@
       {% endif %}
     >
     <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {% if option.name  == "Pack" %}{% if value == "1 Pack"  %} <img src="https://cdn.shopify.com/s/files/1/0744/0138/2673/files/711lPW0nbiL._UL1500.jpg?v=1681458245" width="100px"/>{% elsif value == "2 Pack"  %} 22{% elsif value == "3 Pack"  %}33{% endif %}{% endif %}
+      {% if option.name  == "Pack" %}{% if value == "1 Pack"  %} <img src="https://cdn.shopify.com/s/files/1/0744/0138/2673/files/711lPW0nbiL._UL1500.jpg?v=1681458245" width="100px"/>{% elsif value == "2 Pack"  %} 22{% elsif value == "3 Pack"  %}<img src="https://cdn.shopify.com/s/files/1/0744/0138/2673/files/IMG_9263_600x_1a696c83-be8e-45c6-b20d-100ab3ae6ea9.jpg?v=1681458226" width="100px"/>{% endif %}{% endif %}
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
