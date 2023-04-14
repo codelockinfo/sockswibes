@@ -4,7 +4,6 @@
   "sections": {
     "76649721-9a49-4707-8390-5f1bd40b4493": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "ACHETER NOTRE COLLECTION DE PRINTEMPS",
         "color_scheme": "accent-2",
