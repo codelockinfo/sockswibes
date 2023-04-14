@@ -48,6 +48,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -55,6 +56,15 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "2121ad31-8325-49a8-af12-0e21e793a56f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "icon": "none",
+            "content": "<p>OFFICIAL COLLABORATION WITH SMILEY®<br\/><\/p><p>These pants will keep you smiling all day, and satisfaction is guaranteed. <\/p><p><strong>Details:<\/strong><\/p><ul><li>Checkered logo twill pants<br\/><\/li><li>Custom Smiley button on the front<\/li><li>Features two slit pockets in the front<\/li><li>Two back pockets<\/li><li>Smiley rubber logo on the back with Smiley embroidery patch on left pocket<\/li><li>The model is 5'7\" wearing a size small<\/li><\/ul><p><strong>Care Instructions:<\/strong><\/p><ul><li>Wash cold, tumble dry low<br\/><\/li><li>Do not use chlorine bleach<\/li><li>Hang dry in a well-ventilated area<\/li><li>Cool iron <\/li><\/ul>",
+            "page": ""
           }
         }
       },
@@ -67,7 +77,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "2121ad31-8325-49a8-af12-0e21e793a56f"
       ],
       "settings": {
         "enable_sticky_info": true,
