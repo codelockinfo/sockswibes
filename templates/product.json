@@ -52,12 +52,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "2121ad31-8325-49a8-af12-0e21e793a56f": {
           "type": "collapsible_tab",
           "settings": {
@@ -93,6 +87,12 @@
             "content": "",
             "page": ""
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -104,11 +104,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
         "2121ad31-8325-49a8-af12-0e21e793a56f",
         "9c2f9404-b743-40ba-b93b-d49955941c50",
         "50674aff-4bfa-466e-96f3-7c768b88e99c",
-        "16679528-cba7-4d23-92f9-81c47212a131"
+        "16679528-cba7-4d23-92f9-81c47212a131",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
