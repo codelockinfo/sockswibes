@@ -94,6 +94,24 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+                    {%- when 'socialicon' -%}
+                    <div class="mainsocialflex">
+                      <div class="socailicon">
+                        <div class="socialogistic">
+                            <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                      </div>   
+                      
+                      <div class="socailicon">
+                        <div class="socialogistic">
+                            <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i>
+
+                            </a>
+                        </div>
+                      </div>  
+                    </div>
+
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
@@ -425,6 +443,25 @@
         }
       ]
     },
+    {
+      "type": "socialicon",
+      "name": "socialicon",
+      "settings": [
+        {
+          "type": "url",
+          "id": "iconurl1",
+           "label": "social icon1"
+        },
+        {
+          "type": "url",
+          "id": "iconurl2",
+           "label": "social icon2"
+        }
+      ]
+    },
+
+
+
     {
       "type": "image",
       "name": "Image",
