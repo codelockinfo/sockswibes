@@ -3451,22 +3451,22 @@ l.list-menu.list-menu--inline li a span {
     margin: 3% 0px;
 }
 /* rebuy app start */
-#rebuy-widget-80702 .rebuy-bundle__items {
+#rebuy-widget-83782 .rebuy-bundle__items {
     display: flex;
       flex-wrap: wrap;
     justify-content: space-between;
 }
-#rebuy-widget-80702 .rebuy-bundle__image {
+#rebuy-widget-83782 .rebuy-bundle__image {
     width: 25%;
     max-width: 25%;
     padding: 10px 0px;
   text-align: center;
 }
-#rebuy-widget-80702 .rebuy-bundle__actions{
+#rebuy-widget-83782 .rebuy-bundle__actions{
       order: 3;
   margin-top: 25px;
 }
-#rebuy-widget-80702 .rebuy-bundle__actions-price, #rebuy-widget-80702 .rebuy-bundle__actions-buttons {
+#rebuy-widget-83782 .rebuy-bundle__actions-price, #rebuy-widget-80702 .rebuy-bundle__actions-buttons {
       margin: 5px auto;
 }
 #rebuy-widget-80702 .rebuy-bundle__image-divider i{
