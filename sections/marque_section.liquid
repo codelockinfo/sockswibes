@@ -1,0 +1,120 @@
+   <style>
+    .clsheadtitle{
+    font-family: 'TTNormsProNormal';
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+      }
+      .clsheadtitle span{
+        padding-right: 65px;
+        letter-spacing: 2px;
+        margin: auto;
+      }
+    .globalp{
+    width: 100%;
+    overflow: hidden;
+    }
+    .main-marq{
+    z-index: 999;
+    }
+    .d-flex-b{
+      display: flex;
+       justify-content: space-between;
+      }
+      .gward a > img{
+        width: 190px;
+       max-width: 190px;
+      }
+      .main-marq{
+        padding: 11px 0px;
+      }
+        #{{ section.id }} .main-marq {
+    background: {{section.settings.bg-color}};
+    }
+    #{{ section.id }} .main-marq .text-marquee .d-flex-b .clsheadtitle span{
+    color: {{section.settings.clrmer}};
+       }
+      .clsheadtitle > img{
+        margin-right:10px;
+        width:30px;
+       object-fit: cover;
+       height: 30px;    
+      }
+    </style>
+      {% if section.settings.heading != blank %}
+        <div id="{{ section.id }}">
+      <div class="main-marq">
+      <div class="globalp text-marquee">
+        <div class="d-flex-b">
+
+          <div class="clsheadtitle">
+        {% if section.settings.image_marquee != blank %} 
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          </div>
+        <div class="clsheadtitle">
+        {% if section.settings.image_marquee != blank %} 
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          </div>
+        <div class="clsheadtitle">
+        {% if section.settings.image_marquee != blank %} 
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          </div>
+          <div class="clsheadtitle">
+        {% if section.settings.image_marquee != blank %} 
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          </div>
+          <div class="clsheadtitle">
+        {% if section.settings.image_marquee != blank %} 
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+      {% endif %}
+     {% schema %}
+  {
+    "name": "Merquee Section new",
+    "settings": [
+      {
+        "id" : "heading",
+        "type" : "text",
+        "label" : "Heading"
+      },
+  {
+   "id": "image_marquee",
+   "type": "image_picker",
+    "label": "marquee image" 
+   },
+      {
+        "id" : "bg-color",
+        "type" : "color",
+        "label" : "Background Color"
+      },
+           {
+        "id" : "clrmer",
+        "type" : "color",
+        "label" : "Marquee Color"
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Merquee Section new"
+      }
+    ]
+  }
+{% endschema %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+    <script>
+$(' #{{ section.id }} .main-marq .text-marquee').marquee({
+    direction: 'right',
+    duration: 20000,
+    gap: 10,
+    delayBeforeStart: 0,
+    duplicated: true,
+    startVisible: true
+});
+ </script>

@@ -3222,9 +3222,6 @@ details-disclosure > details {
 .tabset {
   width: 100%;
 }
-label {
-    width: 50%;
-}
 
 /* cls013 */
 .color-background-2 .button--secondary{
@@ -3450,6 +3447,102 @@ l.list-menu.list-menu--inline li a span {
 .populatesction {
     margin: 3% 0px;
 }
+/* rebuy app start */
+#rebuy-widget-83782 .rebuy-bundle__items {
+    display: flex;
+      flex-wrap: wrap;
+    justify-content: space-between;
+}
+#rebuy-widget-83782 .rebuy-bundle__image {
+    width: 25%;
+    max-width: 25%;
+    padding: 10px 0px;
+  text-align: center;
+}
+#rebuy-widget-83782 .rebuy-bundle__actions{
+      order: 3;
+  margin-top: 25px;
+}
+#rebuy-widget-83782 .rebuy-bundle__actions-price, #rebuy-widget-80702 .rebuy-bundle__actions-buttons {
+      margin: 5px auto;
+}
+#rebuy-widget-83782 .rebuy-bundle__image-divider i{
+      display: none;
+}
+#rebuy-widget-83782 .rebuy-product-checkbox{
+  display: flex;
+    justify-content: center;
+    padding-block: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#rebuy-widget-83782 .label.rebuy-checkbox-label{
+      width: 18px;
+}
+#rebuy-widget-83782 input.checkbox-input.rebuy-checkbox{
+      color: #ffffff;
+    background: #000000;
+    border-color: #000000;
+    width: 18px;
+}
+#rebuy-widget-83782 .rebuy-bundle__image-divider{
+      width: 0px;
+}
+#rebuy-widget-83782 .rebuy-product-info{
+      display: block;
+    text-align: center;
+}
+#rebuy-widget-83782 strong.rebuy-product-label {
+    display: block;
+}
+#rebuy-widget-83782 .rebuy-bundle__items .rebuy-product-block{
+      flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px 15px;
+  
+}
+/* .page-width {
+    padding: 0px;
+} */
+#rebuy-widget-83782 .primary-title{
+      text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#rebuy-widget-83782 .rebuy-button {
+      color: #ffffff;
+    background: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-radius: 0px;
+    text-transform: uppercase;
+      font-weight: bold;
+}
+#rebuy-widget-83782 .rebuy-bundle{
+display: flex;
+    flex-wrap: wrap;
+      width: 100%;
+}
+#rebuy-widget-83782 .rebuy-bundle__images{
+      -webkit-flex-flow: row wrap;
+    flex: unset;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#rebuy-widget-83782 .rebuy-product-info a{
+      -webkit-flex-flow: row wrap;
+    flex: unset;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+      overflow: visible;
+    white-space: pre-wrap;
+}
+#rebuy-widget-83782 .rebuy-bundle__actions-buttons {
+    margin: 0 auto;
+}
+/* rebuy app end */
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;

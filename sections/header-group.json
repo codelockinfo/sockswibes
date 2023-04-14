@@ -4,6 +4,7 @@
   "sections": {
     "76649721-9a49-4707-8390-5f1bd40b4493": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "ACHETER NOTRE COLLECTION DE PRINTEMPS",
         "color_scheme": "accent-2",
@@ -40,18 +41,67 @@
             "color_scheme": "background-1",
             "link": ""
           }
+        },
+        "85ec3072-1701-48a6-b45f-b7bb0fcbec36": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "cb18e3bf-2cef-4b99-88f6-0b9aa9c11d9a": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "1734f019-628c-4ac6-8b9f-6d78e694cd2e": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "633246f6-b2d9-44e2-80f8-3f0cb7426344": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "85ec3072-1701-48a6-b45f-b7bb0fcbec36",
+        "cb18e3bf-2cef-4b99-88f6-0b9aa9c11d9a",
+        "1734f019-628c-4ac6-8b9f-6d78e694cd2e",
+        "633246f6-b2d9-44e2-80f8-3f0cb7426344"
       ],
       "settings": {
+      }
+    },
+    "df8e83d5-da5e-463d-b54f-5f1f309b1372": {
+      "type": "marque_section",
+      "settings": {
+        "heading": "<span>LIVRAISON OFFERTE DÈS 54€ D'ACHAT   🎁<\/span>",
+        "bg-color": "#f0f0f0",
+        "clrmer": ""
       }
     }
   },
   "order": [
     "76649721-9a49-4707-8390-5f1bd40b4493",
     "header",
-    "announcement-bar"
+    "announcement-bar",
+    "df8e83d5-da5e-463d-b54f-5f1f309b1372"
   ]
 }
