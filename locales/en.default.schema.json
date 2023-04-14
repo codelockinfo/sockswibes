@@ -808,7 +808,7 @@
           "name": "Quantity selector"
         },
         "variant_picker": {
-          "name": "Variant picker 1",
+          "name": "Variant picker",
           "settings": {
             "picker_type": {
               "label": "Type",
@@ -1940,7 +1940,7 @@
           "name": "Quantity selector"
         },
         "variant_picker": {
-          "name": "Variant picker 2",
+          "name": "Variant picker",
           "settings": {
             "picker_type": {
               "label": "Type",
