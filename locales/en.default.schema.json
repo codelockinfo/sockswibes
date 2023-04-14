@@ -1950,6 +1950,9 @@
               "options__2": {
                 "label": "Pills"
               }
+            },
+            "pack_images": {
+              "label": "Pack Images"
             }
           }
         },
