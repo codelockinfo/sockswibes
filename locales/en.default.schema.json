@@ -1950,15 +1950,6 @@
               "options__2": {
                 "label": "Pills"
               }
-            },
-            "picker_image": {
-              "label": "PackImages",
-              "options__1": {
-                "label": "Dropdown"
-              },
-              "options__2": {
-                "label": "Pills"
-              }
             }
           }
         },
