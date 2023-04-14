@@ -3469,36 +3469,36 @@ l.list-menu.list-menu--inline li a span {
 #rebuy-widget-83782 .rebuy-bundle__actions-price, #rebuy-widget-80702 .rebuy-bundle__actions-buttons {
       margin: 5px auto;
 }
-#rebuy-widget-80702 .rebuy-bundle__image-divider i{
+#rebuy-widget-83782 .rebuy-bundle__image-divider i{
       display: none;
 }
-#rebuy-widget-80702 .rebuy-product-checkbox{
+#rebuy-widget-83782 .rebuy-product-checkbox{
   display: flex;
     justify-content: center;
     padding-block: 10px;
     width: 100%;
     flex-wrap: wrap;
 }
-#rebuy-widget-80702 .label.rebuy-checkbox-label{
+#rebuy-widget-83782 .label.rebuy-checkbox-label{
       width: 18px;
 }
-#rebuy-widget-80702 input.checkbox-input.rebuy-checkbox{
+#rebuy-widget-83782 input.checkbox-input.rebuy-checkbox{
       color: #ffffff;
     background: #000000;
     border-color: #000000;
     width: 18px;
 }
-#rebuy-widget-80702 .rebuy-bundle__image-divider{
+#rebuy-widget-83782 .rebuy-bundle__image-divider{
       width: 0px;
 }
-#rebuy-widget-80702 .rebuy-product-info{
+#rebuy-widget-83782 .rebuy-product-info{
       display: block;
     text-align: center;
 }
-#rebuy-widget-80702 strong.rebuy-product-label {
+#rebuy-widget-83782 strong.rebuy-product-label {
     display: block;
 }
-#rebuy-widget-80702 .rebuy-bundle__items .rebuy-product-block{
+#rebuy-widget-83782 .rebuy-bundle__items .rebuy-product-block{
       flex: 0 0 25%;
     max-width: 25%;
     padding: 10px 15px;
@@ -3507,12 +3507,12 @@ l.list-menu.list-menu--inline li a span {
 /* .page-width {
     padding: 0px;
 } */
-#rebuy-widget-80702 .primary-title{
+#rebuy-widget-83782 .primary-title{
       text-align: center;
     text-transform: uppercase;
     font-size: 18px;
 }
-#rebuy-widget-80702 .rebuy-button {
+#rebuy-widget-83782 .rebuy-button {
       color: #ffffff;
     background: #000000;
     border-color: #000000;
@@ -3521,19 +3521,19 @@ l.list-menu.list-menu--inline li a span {
     text-transform: uppercase;
       font-weight: bold;
 }
-#rebuy-widget-80702 .rebuy-bundle{
+#rebuy-widget-83782 .rebuy-bundle{
 display: flex;
     flex-wrap: wrap;
       width: 100%;
 }
-#rebuy-widget-80702 .rebuy-bundle__images{
+#rebuy-widget-83782 .rebuy-bundle__images{
       -webkit-flex-flow: row wrap;
     flex: unset;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-#rebuy-widget-80702 .rebuy-product-info a{
+#rebuy-widget-83782 .rebuy-product-info a{
       -webkit-flex-flow: row wrap;
     flex: unset;
     width: 100%;
