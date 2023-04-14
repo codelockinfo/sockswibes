@@ -75,6 +75,15 @@
             "content": "",
             "page": "size-guid"
           }
+        },
+        "50674aff-4bfa-466e-96f3-7c768b88e99c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SHIPPING & RETURNS",
+            "icon": "none",
+            "content": "<p><strong>Shipping:<\/strong><\/p><p>FREE SHIPPING on all U.S. orders $150+<\/p><p>We ship worldwide and international shipping costs are determined at checkout.<\/p><p><strong>Returns:<\/strong><\/p><p>Looking to return or exchange your BSR order? Don’t worry, we got you covered. We offer easy returns and exchanges within 30 days of your orders delivery date. Sale items are final, but can be exchanged for items of equal or lesser value.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -88,7 +97,8 @@
         "description",
         "share",
         "2121ad31-8325-49a8-af12-0e21e793a56f",
-        "9c2f9404-b743-40ba-b93b-d49955941c50"
+        "9c2f9404-b743-40ba-b93b-d49955941c50",
+        "50674aff-4bfa-466e-96f3-7c768b88e99c"
       ],
       "settings": {
         "enable_sticky_info": true,
