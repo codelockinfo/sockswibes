@@ -288,5 +288,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".section-sections--18544998121745__76649721-9a49-4707-8390-5f1bd40b4493-padding {text-align: center; color: white;}"
+    ]
   }
 }
