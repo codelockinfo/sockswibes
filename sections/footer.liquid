@@ -30,7 +30,7 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<footer class="footerbackground footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
@@ -51,7 +51,7 @@
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
-      <div class="footer__content-top page-width">
+      <div class="clstarget footer__content-top page-width">
         {%- if section.blocks.size > 0 -%}
           {%- liquid
             if section.blocks.size == 9
@@ -79,6 +79,21 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+
+                    {%- when 'socialicon' -%}
+                <div class="mainsocialflex">
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+
+                  <div class="socailicon">
+                    <div class="socialogistic">
+                      <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -352,9 +367,20 @@
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
-        <small class="copyright__content"
+<!--         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
+        </small> -->
+
+            <p class="footer__copyright text-sm text-subdued">
+              <div class="mentionall">
+            <p><a href="{{ section.settings.urldetail1 }}">Mentions legales</a></p>
+            <p><a href="{{ section.settings.urldetail2 }}"> Politique de rembousement</a></p>
+            <p><a href="{{ section.settings.urldetail3 }}"> CGV</a></p>
+            <p><a href="{{ section.settings.urldetail4 }}"> Livraisons</a></p>
+            <p><a href="{{ section.settings.urldetail15}}"> Pas de vente de donnés</a></p>
+              </div>
+          </p>
+        
         <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
@@ -401,6 +427,22 @@
           "default": "footer",
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+        }
+      ]
+    },
+           {
+      "type": "socialicon",
+      "name": "socialicon",
+      "settings": [
+        {
+          "type": "url",
+          "id": "iconurl1",
+           "label": "social icon1"
+        },
+        {
+          "type": "url",
+          "id": "iconurl2",
+           "label": "social icon2"
         }
       ]
     },
@@ -652,6 +694,31 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+     {
+        "type": "url",
+      "id": "urldetail1",
+      "label": "Url1"
+    },
+      {
+        "type": "url",
+      "id": "urldetail2",
+      "label": "Url2"
+    },
+      {
+        "type": "url",
+      "id": "urldetail3",
+      "label": "Url3"
+    },
+      {
+        "type": "url",
+      "id": "urldetail4",
+      "label": "Url4"
+    },
+      {
+        "type": "url",
+      "id": "urldetail5",
+      "label": "Url5"
     }
   ],
   "default": {

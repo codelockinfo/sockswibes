@@ -1,1 +1,67 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":36,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1eb756bd-343d-4266-a787-0d49105d545b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>SERVICE CLIENT<\/strong>",
+            "menu": "footer1"
+          }
+        },
+        "0c168b99-5dc5-45a3-99ab-435a57fafbc8": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>EN SAVOIR PLUS<\/strong>",
+            "menu": "footer2"
+          }
+        },
+        "6b5a92d1-65c4-47af-a4ae-ac50935ae343": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>INFO LIVRAISON<\/strong>",
+            "menu": "info-livraison"
+          }
+        },
+        "f27328e2-e7c0-48e8-a338-9e46ec10f76f": {
+          "type": "socialicon",
+          "settings": {
+            "iconurl1": "",
+            "iconurl2": ""
+          }
+        }
+      },
+      "block_order": [
+        "1eb756bd-343d-4266-a787-0d49105d545b",
+        "0c168b99-5dc5-45a3-99ab-435a57fafbc8",
+        "6b5a92d1-65c4-47af-a4ae-ac50935ae343",
+        "f27328e2-e7c0-48e8-a338-9e46ec10f76f"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Soyez informé de nos prochaines soldes,événements...",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "urldetail1": "",
+        "urldetail2": "",
+        "urldetail3": "",
+        "urldetail4": "",
+        "urldetail5": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

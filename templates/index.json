@@ -1,5 +1,60 @@
 {
   "sections": {
+    "130241ff-42d0-4d92-8894-3c5cb5045dfb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18544998449425__130241ff-42d0-4d92-8894-3c5cb5045dfb-1681377714a1e0658e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594_ec6ef266-6119-4915-92a7-d94834de6543.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--18544998449425__130241ff-42d0-4d92-8894-3c5cb5045dfb-1681377714a1e0658e-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cropped-view-woman-pajamas-sitting-wooden-floor-home-hot-drink-cookies-reading-book-everyday-cozy-life-131612820_004c8c5c-2464-437a-9071-859762b7efd3.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18544998449425__130241ff-42d0-4d92-8894-3c5cb5045dfb-1681377714a1e0658e-0",
+        "template--18544998449425__130241ff-42d0-4d92-8894-3c5cb5045dfb-1681377714a1e0658e-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "ce9dfba9-b361-469f-8502-bec2f6c58c30": {
       "type": "image-with-text",
       "blocks": {
@@ -88,8 +143,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Le must-have pour vos pieds",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -111,11 +166,56 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "18c70db3-b7d4-4670-a7b7-e7040630bae3": {
+      "type": "popularsections",
+      "blocks": {
+        "d6ef77cb-8585-46f1-91c4-e30cf5543686": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_a8f3538d-53eb-47fd-9027-b17680868545.webp",
+            "subtitle": "FIL D'ECOSSE  HAUTE QUALITE"
+          }
+        },
+        "ca5c5473-56cc-43ad-8227-0727e7ada6a6": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_7b02eacd-12c0-498f-9ce7-0f589d23fd2b.webp",
+            "subtitle": "RAFINÉE ET INTEMPORELLE"
+          }
+        },
+        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
+            "subtitle": "DURABILITÉ ET RESISTANCE"
+          }
+        },
+        "9ebe8119-c81a-4089-a21f-2d46a0988e9d": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp",
+            "subtitle": "CHAUSSETTE RESPIRANTE"
+          }
+        }
+      },
+      "block_order": [
+        "d6ef77cb-8585-46f1-91c4-e30cf5543686",
+        "ca5c5473-56cc-43ad-8227-0727e7ada6a6",
+        "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1",
+        "9ebe8119-c81a-4089-a21f-2d46a0988e9d"
+      ],
+      "settings": {
+        "lemotitle": "faites de chaque pas une expérience inoubliable !",
+        "lenosub": "Tellement confortable que vous voudriez dormir avec"
+      }
     }
   },
   "order": [
+    "130241ff-42d0-4d92-8894-3c5cb5045dfb",
     "ce9dfba9-b361-469f-8502-bec2f6c58c30",
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "18c70db3-b7d4-4670-a7b7-e7040630bae3"
   ]
 }

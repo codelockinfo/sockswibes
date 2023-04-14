@@ -3280,14 +3280,188 @@ s.price-item.price-item--regular {
   font-size: 20px;
   line-height: 25px;
 }
-.bgcolor, .clstarget .image-with-text__content, .clstarget {
-  background-color: #efe5da;
-}
+
 .bgcolor .image-with-text__grid--reverse{
   align-items: center;
 }
 .customcollection .collection-hero__image-container{
   margin-left: 0px;
+}
+
+.boxcontainflex1 {
+    flex: 0 0 25%;
+    max-width: calc(25% - 20px);
+    margin: 0 10px;
+  border: 1.5px solid #000;
+    border-radius: 20px;
+}
+.boxcontainflex1 img{
+  border-radius: 20px;
+}
+
+.boxcontainflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.signlineflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  border-top: 1.5px solid #000;
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+}
+.subtosubtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.signlineflex i, .signlineflexdesign i {
+    color: #fff;
+    background-color: #bc6c25;
+    padding: 10px;
+    border-radius: 50%;
+}
+.subtitle {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+  padding: 10px 0px;
+      margin: 0;
+}
+.lemtitle {
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 80px;
+      margin: 0px 0px;
+}
+.komimage {
+    width: 100%;
+    max-width: 100%;
+}
+.lemmantitle {
+    margin-bottom: 25px;
+}
+.signlineflexdesign{
+      display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+      background-color: #fff;
+}
+.signlineflexdesign {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    margin-bottom: 12px;
+    border-radius: 50px;
+}
+
+.mobileversion{
+     display: none;
+}
+.mainsocialflex {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+.socialogistic i {
+    font-size: 25px;
+    background-color: #efe5da;
+    padding: 10px 15px;
+    margin-right: 20px;
+    border-radius: 50px;
+    color: #000;
+}
+i.fa.fa-instagram{
+      padding: 10px 12px;
+}
+.footer__block.footer__block--menu {
+    width: 25%;
+    max-width: 100%;
+}
+.clsfottertarget .footer__block-list{
+  flex-wrap: wrap;
+     gap: unset;
+}
+.clsfottertarget .footer__block--newsletter{
+      margin-top: 4%;
+}
+.announcement-bar__item .shape-circle{
+      width: auto;
+}
+.footerbackground {
+  background-color: #000;
+}
+.footerbackground .footer-block__details-content .list-menu__item--link, .footerbackground h2 {
+    color: #fff !important;
+}
+.footerbackground .newsletter-form{
+      margin: 0;
+}
+.footerbackground .footer-block__newsletter {
+    text-align: left;
+}
+.footerbackground .footer__copyright.caption{
+  
+    width: 100%;
+}
+.mentionall{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mentionall a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+l.list-menu.list-menu--inline li a span {
+    font-size: 17px;
+    font-weight: 600;
+}
+.colbetter .card__heading{
+  font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.colbetter .quick-add__submit{
+      font-size: 18px;
+    font-weight: 600;
+}
+.signlineflex2 {
+    flex: 0 0 85%;
+    max-width: 85%;
+}
+.signlineflex1 {
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+.populatesction {
+    margin: 3% 0px;
+}
+@media only screen and (max-width: 1024px) {
+.desktop{
+      display: none;
+}
+  .mobileversion{
+        display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+.signlineflexdesign{
+      padding: 7px 3px 7px 8px;
+}
 }
 /* cls007 end */
 
