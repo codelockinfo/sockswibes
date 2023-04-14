@@ -12,8 +12,12 @@
               <img src="{{ block.settings.kome | img_url:'master' }}" class="komimage">
             </div>
             <div class="signlineflex">
-              <i class="fa fa-check" aria-hidden="true"></i>
-              <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+              <div class="signlineflex1">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </div>
+              <div class="signlineflex2">
+                <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -25,8 +29,12 @@
         {% for block in section.blocks %}
           <div class="signupflex1">
             <div class="signlineflexdesign">
-              <i class="fa fa-check" aria-hidden="true"></i>
-              <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+              <div class="signlineflex1">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </div>
+              <div class="signlineflex2">
+                <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+              </div>
             </div>
           </div>
         {% endfor %}
