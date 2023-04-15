@@ -192,29 +192,29 @@ endfor
 
               <!-- menu start -->
       <div class="subscribedmenu">
-        <div class="subscribedmenu_flex1">
-      <p class="menustitle">{{ section.settings.menu1title }}</p>
+        <div class="subscribedmenu_flex1 menubaractive" data-tab="tabmenu1">
+      <p class="menustitle ">{{ section.settings.menu1title }}</p>
       </div>
-              <div class="subscribedmenu_flex1">
+              <div class="subscribedmenu_flex1" data-tab="tabmenu2">
       <p class="menustitle">{{ section.settings.menu2title }}</p>
       </div>
       </div>
 <!--   clsmenu 1     -->
-               <div id="marzen" class="tab-panel">
-      {% assign menu_handle = section.settings.menu_handle %}
+               <div id="tabmenu1" class="clstab-panel menulinkactive">
+                  {% assign menu_handle = section.settings.menu_handle %}
                  {% assign menu1 = linklists[menu_handle] %}
         
-        <ul class="menu">
+        <ul class="clsmenu">
           {% for link in menu1.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
      </div>
     <!--   clsmenu 2     -->
-    <div id="rauchbier" class="tab-panel">
+    <div id="tabmenu2" class="clstab-panel">
       {% assign menu_handle2 = section.settings.menu_handle2 %}
               {% assign menus = linklists[menu_handle2] %}
-               <ul class="menu">
+               <ul class="clsmenu">
           {% for link in menus.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
@@ -1191,3 +1191,18 @@ requestAnimationFrame(this.hide.bind(this));
     ]
     }
     {% endschema %}
+
+
+    <script>
+      	$('.subscribedmenu_flex1 ').click(function(f){
+      f.preventDefault();
+     
+       var value = $(this).attr('data-tab');
+       console.log(value + 'hello2');
+    $('.clstab-panel.menulinkactive').removeClass('menulinkactive');
+  $("#" + value).addClass('menulinkactive');
+  
+  $('.subscribedmenu_flex1.menubaractive').removeClass('menubaractive');
+   $(this).addClass('menubaractive');
+   });
+    </script>

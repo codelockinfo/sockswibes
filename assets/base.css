@@ -3569,18 +3569,41 @@ display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2%;
 }
 .menustitle {
     margin: 0px;
     color: #000;
+    padding: 7px 0px 6px;
 }
 .subscribedmenu_flex1 {
     flex: 0 0 50%;
     max-width: 48%;
     border: 2px solid #000;
-    padding: 7px 0px 6px;
+  
     text-align: center;
     border-radius: 25px;
+}
+.clsmenu a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #000;
+}
+.clsmenu li {
+  list-style: none;
+}
+.subscribedmenu_flex1.menubaractive{
+  background-color: #000;
+  color: #fff;
+}
+.subscribedmenu_flex1.menubaractive .menustitle {
+  color: #fff;
+}
+.clstab-panel{
+  display: none;
+}
+.clstab-panel.menulinkactive{
+  display: block;
 }
 /* rebuy app end */
 /* clsmedia */
@@ -3619,6 +3642,11 @@ display: flex;
   .lemtitle {
     font-size: 37px;
     line-height: 50px;
+}
+}
+@media only screen and (max-width: 989px) {
+  ul#marzen {
+    display: none;
 }
 }
 @media only screen and (max-width: 749px) {
