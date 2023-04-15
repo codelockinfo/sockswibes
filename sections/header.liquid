@@ -191,7 +191,14 @@ endfor
             <div class="menu-drawer__navigation-container">
 
               <!-- menu start -->
-             
+                    <ul class="contents">
+              {%- for link in section.settings.secondary_menu.links -%}
+                <li>
+                  <a href="{{ link.url }}" class="bold link-faded-reverse">{{ link.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+    
                
                
 
@@ -976,8 +983,6 @@ requestAnimationFrame(this.hide.bind(this));
     "default": "main-menu",
     "label": "t:sections.header.settings.menu.label"
     },
-
-
     {
     "type": "select",
     "id": "menu_type_desktop",
