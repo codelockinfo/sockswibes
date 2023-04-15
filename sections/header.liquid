@@ -196,8 +196,7 @@ endfor
       {% assign menu_handle = section.settings.menu_handle %}
 
            {% assign menu1 = linklists[menu_handle] %}
-               {{ menu_handle2 }}+ meny11111111
-        <ul class="menu">
+                  <ul class="menu">
           {% for link in menu1.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
@@ -206,10 +205,8 @@ endfor
     <!--   clsmenu 2     -->
     <div id="" class="">
       {% assign menu_handle2 = section.settings.menu_handle2 %}
-       {{ menu_handle2 }}+ helllooooo
-        {% assign menus = linklists[menu_handle2] %}
-       
-        <ul class="menu">
+             {% assign menus = linklists[menu_handle2] %}
+               <ul class="menu">
           {% for link in menus.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
