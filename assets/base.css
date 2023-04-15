@@ -3372,11 +3372,21 @@ s.price-item.price-item--regular {
 }
 .socialogistic i {
     font-size: 25px;
-    background-color: #fff;
+    background-color: #000;
     padding: 10px 15px;
     margin-right: 20px;
     border-radius: 50px;
-    color: #000;
+    color: #fff;
+}
+.footerbackground .footer__content-bottom {
+  border-top: none;
+  padding-top: 0;
+}
+.clsfooter.footer__content-top {
+  padding-bottom: 0;
+}
+.clsfooter .footer__copyright{
+  margin-top: 0;
 }
 i.fa.fa-instagram{
       padding: 10px 12px;
@@ -3393,13 +3403,11 @@ i.fa.fa-instagram{
       margin-top: 4%;
 }
 .announcement-bar__item .shape-circle{
-      width: auto;
+      /* width: auto; */
 }
-.footerbackground {
-  background-color: #000;
-}
+
 .footerbackground .footer-block__details-content .list-menu__item--link, .footerbackground h2 {
-    color: #fff !important;
+    color: #000 !important;
 }
 .footerbackground .newsletter-form{
       margin: 0;
@@ -3417,7 +3425,7 @@ i.fa.fa-instagram{
     justify-content: space-between;
 }
 .mentionall a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 16px;
 }
@@ -3547,7 +3555,26 @@ display: flex;
   color: #000;
   font-weight: 600;
 }
+.footerbackground .newsletter-form__field-wrapper .field:after{
+  border-radius: 25px;
+}
+.footerbackground .field__input:focus{
+  border-radius: 25px;
+}
+.populatesction{
+  padding: 0 20px;
+}
 /* rebuy app end */
+/* clsmedia */
+@media only screen and (max-width: 1500px) {
+  .lemtitle {
+    font-size: 48px;
+    line-height: 55px;
+  }
+  .subtosubtitle{
+    margin: 0;
+  }
+}
 @media only screen and (max-width: 1024px) {
 .desktop{
       display: none;
@@ -3555,15 +3582,113 @@ display: flex;
   .mobileversion{
         display: block;
   }
+  .footerbackground .grid--4-col-tablet .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+}
+.signlineflexdesign{
+  padding: 5px 12px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+  .mainsocialflex{
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .footerbackground .footer__copyright{
+    margin-top: 0;
+  }
+  .lemtitle {
+    font-size: 37px;
+    line-height: 50px;
+}
+}
+@media only screen and (max-width: 749px) {
+.footerbackground.footer .grid {
+  display: flex;
+}
+.lemtitle {
+  font-size: 30px;
+  line-height: 47px;
+}
+.subtitle {
+  font-size: 20px;
+}
+.footerbackground .footer-block--newsletter{
+  flex-direction: inherit;
+}
+.footerbackground .newsletter-form{
+  align-items: flex-start;
+}
+.footerbackground .footer-block.grid__item{
+  margin: 0 0;
+}
+.footerbackground .footer-block__heading {
+  margin-bottom: 1rem;
+}
+.footerbackground .footer-block__details-content .list-menu__item--link{
+  padding-bottom: 0rem;
+}
+ .mentionall p {
+  margin: 0px;
+}
+.clsfooter.page-width {
+  padding: 0 20px;
+}
+.lemtitle {
+  font-size: 25px;
+  line-height: 35px;
+}
 }
 @media only screen and (max-width: 375px) {
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
 }
+.lemtitle {
+  font-size: 22px;
+  line-height: 30px;
+}
+.colbetter .quick-add__submit {
+  font-size: 15px;
+}
+.colbetter .card__heading {
+  font-size: 13px;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+.subtosubtitle {
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 4px;
+}
 }
 .packimage{
   width:50px;
   height:50px;
+}
+
+@media only screen and (max-width: 360px) {
+  .footerbackground .footer-block__heading.inline-richtext strong {
+    font-size: 12px;
+}
+.footerbackground .footer-block__heading {
+  margin-bottom: 0rem;
+}
+.footerbackground .footer-block__details-content li a{
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 9px;
+}
+.footerbackground h2.footer-block__heading.inline-richtext{
+  font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.mentionall a{
+  font-size: 14px;
+}
 }
 /* cls007 end */
 
