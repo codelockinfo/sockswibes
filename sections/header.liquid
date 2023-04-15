@@ -206,7 +206,7 @@ endfor
     <div id="rauchbier" class="tab-panel">
       {% assign menu_handle2 = section.settings.menu_handle2 %}
         {% assign menus = linklists[menu_handle2] %}
-        {{  }}
+        {{ menu_handle2 }}+ helllooooo
         <ul class="menu">
           {% for link in menus.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
