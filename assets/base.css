@@ -3681,6 +3681,9 @@ display: flex;
   font-size: 25px;
   line-height: 35px;
 }
+  .clstarget .image-with-text__content{
+        padding: 20px 10px;
+  }
 }
 @media only screen and (max-width: 375px) {
 .signlineflexdesign{
