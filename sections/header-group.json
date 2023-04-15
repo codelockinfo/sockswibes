@@ -20,7 +20,7 @@
         "logo_position": "middle-center",
         "menu": "socksmenu",
         "menu_handle": "socksmenu",
-        "menu_handle2": "SERVICE CLIENT",
+        "menu_handle2": "Shop",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
