@@ -194,10 +194,10 @@ endfor
 <!--   clsmenu 1     -->
                <div id="marzen" class="tab-panel">
       {% assign menu_handle = section.settings.menu_handle %}
-           {% assign menu = linklists[menu_handle] %}
+           {% assign menu1 = linklists[menu_handle] %}
         
         <ul class="menu">
-          {% for link in menu.links %}
+          {% for link in menu1.links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
