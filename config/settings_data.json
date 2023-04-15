@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.png",
-    "logo_width": 160,
+    "logo_width": 190,
     "colors_solid_button_labels": "#f0f0f0",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -9,7 +9,7 @@
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#fff",
+    "colors_background_1": "#f0f0f0",
     "gradient_background_1": "",
     "colors_background_2": "#f6f6f6",
     "gradient_background_2": "",
@@ -123,7 +123,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -288,5 +288,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".section-sections--18544998121745__76649721-9a49-4707-8390-5f1bd40b4493-padding {text-align: center; color: white;}"
+    ]
   }
 }

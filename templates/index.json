@@ -6,7 +6,7 @@
         "template--18544998449425__130241ff-42d0-4d92-8894-3c5cb5045dfb-1681377714a1e0658e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594_ec6ef266-6119-4915-92a7-d94834de6543.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_3246.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -130,7 +130,7 @@
         "image": "shopify:\/\/shop_images\/four-pair-feet-christmas-socks-mom-children-lying-couch-enjoying-christmas-time-together-four-pair-feet-196772594.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -209,6 +209,78 @@
         "lemotitle": "faites de chaque pas une expérience inoubliable !",
         "lenosub": "Tellement confortable que vous voudriez dormir avec"
       }
+    },
+    "cea45325-dadd-42d6-a536-ca19efe8a689": {
+      "type": "featured-product",
+      "blocks": {
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-3": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-0",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-1",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-2",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-3",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-4",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-5",
+        "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-6"
+      ],
+      "settings": {
+        "product": "crikbuzz-combo-pack-of-loafer-socks-beer-can-cover-red",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -216,6 +288,7 @@
     "ce9dfba9-b361-469f-8502-bec2f6c58c30",
     "image_banner",
     "featured_collection",
-    "18c70db3-b7d4-4670-a7b7-e7040630bae3"
+    "18c70db3-b7d4-4670-a7b7-e7040630bae3",
+    "cea45325-dadd-42d6-a536-ca19efe8a689"
   ]
 }
