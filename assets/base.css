@@ -3608,7 +3608,7 @@ display: flex;
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
-  .lemtitle {
+  .lemtitle, .clstarget h2.image-with-text__heading.inline-richtext.h1 {
     font-size: 48px;
     line-height: 55px;
   }
@@ -3639,7 +3639,7 @@ display: flex;
   .footerbackground .footer__copyright{
     margin-top: 0;
   }
-  .lemtitle {
+  .lemtitle, .clstarget h2.image-with-text__heading.inline-richtext.h1 {
     font-size: 37px;
     line-height: 50px;
 }
@@ -3652,10 +3652,6 @@ display: flex;
 @media only screen and (max-width: 749px) {
 .footerbackground.footer .grid {
   display: flex;
-}
-.lemtitle {
-  font-size: 30px;
-  line-height: 47px;
 }
 .subtitle {
   font-size: 20px;
@@ -3681,7 +3677,7 @@ display: flex;
 .clsfooter.page-width {
   padding: 0 20px;
 }
-.lemtitle {
+.lemtitle, .clstarget h2.image-with-text__heading.inline-richtext.h1 {
   font-size: 25px;
   line-height: 35px;
 }
@@ -3690,7 +3686,7 @@ display: flex;
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
 }
-.lemtitle {
+.lemtitle, .clstarget h2.image-with-text__heading.inline-richtext.h1{
   font-size: 22px;
   line-height: 30px;
 }
