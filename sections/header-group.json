@@ -19,7 +19,9 @@
       "settings": {
         "logo_position": "middle-center",
         "menu": "socksmenu",
+        "menu1title": "ACHETER",
         "menu_handle": "menu1",
+        "menu2title": "EN SAVOIR PLUS",
         "menu_handle2": "menu2",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
