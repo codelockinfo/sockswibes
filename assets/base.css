@@ -3564,6 +3564,12 @@ display: flex;
 .populatesction{
   padding: 0 20px;
 }
+.subscribedmenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
