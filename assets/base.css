@@ -3372,7 +3372,7 @@ s.price-item.price-item--regular {
 }
 .socialogistic i {
     font-size: 25px;
-    background-color: #efe5da;
+    background-color: #fff;
     padding: 10px 15px;
     margin-right: 20px;
     border-radius: 50px;
@@ -3541,6 +3541,11 @@ display: flex;
 }
 #rebuy-widget-83782 .rebuy-bundle__actions-buttons {
     margin: 0 auto;
+}
+.clslivreson .mobile-facets__open-label{
+  font-size: 22px;
+  color: #000;
+  font-weight: 600;
 }
 /* rebuy app end */
 @media only screen and (max-width: 1024px) {
