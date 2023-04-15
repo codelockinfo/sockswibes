@@ -3712,6 +3712,10 @@ display: flex;
   line-height: 17px;
   padding-left: 4px;
 }
+  .clstarget a.button.button--primary {
+    font-size: 16px;
+    line-height: 25px;
+}
 }
 .packimage{
   width:50px;
