@@ -62,6 +62,7 @@
           "type": "heading",
           "settings": {
             "heading": "PRODUCT PROMISE GOES HERE",
+            "font_size1": 25,
             "heading_size": "h1"
           }
         },
@@ -69,6 +70,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Pour les hommes comme-vous, c'est classique, sobre et chic<\/p>",
+            "font_size2": 16,
             "text_style": "body"
           }
         },
@@ -144,6 +146,8 @@
       "type": "featured-collection",
       "settings": {
         "title": "Le must-have pour vos pieds",
+        "font_size": 25,
+        "font_size1": 16,
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -174,28 +178,32 @@
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_a8f3538d-53eb-47fd-9027-b17680868545.webp",
-            "subtitle": "FIL D'ECOSSE  HAUTE QUALITE"
+            "subtitle": "FIL D'ECOSSE  HAUTE QUALITE",
+            "font_size3": 16
           }
         },
         "ca5c5473-56cc-43ad-8227-0727e7ada6a6": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_7b02eacd-12c0-498f-9ce7-0f589d23fd2b.webp",
-            "subtitle": "RAFINÉE ET INTEMPORELLE"
+            "subtitle": "RAFINÉE ET INTEMPORELLE",
+            "font_size3": 16
           }
         },
         "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7007-PO3_1_451x_1c8044fa-b7d4-43d4-8a98-7da8b45b357d.webp",
-            "subtitle": "DURABILITÉ ET RESISTANCE"
+            "subtitle": "DURABILITÉ ET RESISTANCE",
+            "font_size3": 16
           }
         },
         "9ebe8119-c81a-4089-a21f-2d46a0988e9d": {
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/BRO7252-grey_451x_596d4ad9-245b-4d03-b06c-01d3dc98fe09.webp",
-            "subtitle": "CHAUSSETTE RESPIRANTE"
+            "subtitle": "CHAUSSETTE RESPIRANTE",
+            "font_size3": 16
           }
         }
       },
@@ -207,7 +215,9 @@
       ],
       "settings": {
         "lemotitle": "faites de chaque pas une expérience inoubliable !",
-        "lenosub": "Tellement confortable que vous voudriez dormir avec"
+        "lenosub": "Tellement confortable que vous voudriez dormir avec",
+        "font_size": 30,
+        "font_size2": 18
       }
     },
     "cea45325-dadd-42d6-a536-ca19efe8a689": {
@@ -223,7 +233,8 @@
         "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-1": {
           "type": "title",
           "settings": {
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "font_size1": 23
           }
         },
         "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-2": {
