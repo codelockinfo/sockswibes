@@ -6,9 +6,16 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "19459029-7b6a-4d1f-849d-97a52015ea1d": {
+      "type": "Faqcontain",
+      "settings": {
+        "shiney": "Quick links"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "19459029-7b6a-4d1f-849d-97a52015ea1d"
   ]
 }
