@@ -3608,6 +3608,9 @@ display: flex;
 .clsdrawermain dl .product-option {
     display: none;
 }
+.clsdrawersmain .drawer__inner{
+      width: 55rem;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
