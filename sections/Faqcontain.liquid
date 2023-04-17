@@ -43,3 +43,53 @@
     });
   });
 </script>
+
+{% schema %}
+{
+   "name":"Faqcontain",
+   "settings":[
+		{
+           "type": "text",
+           "id": "shiney",
+           "default": "Quick links",
+           "label": "Heading"
+        }
+
+   ],
+   "blocks":[
+      {
+         "type":"image",
+         "name":"block",
+         "settings":[
+
+		{
+          "id": "collection",
+          "type": "collection",
+          "label":"collection"
+          },
+  	{
+             "type": "text",
+             "id": "rates",
+               "label": "Rate"
+          }
+
+
+
+         ]
+      }
+   ],
+   "presets":[
+      {
+         "name":{
+
+            "en":"Faqcontain"
+         },
+         "category":{
+
+
+            "en":"Faqcontain"
+         }
+      }
+   ]
+}
+{% endschema %}
