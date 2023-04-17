@@ -3620,6 +3620,7 @@ display: flex;
 }
 .clsdrawermain .quantity{
   position: unset;
+    border: 1px solid #e3e3e3;
 }
 /* rebuy app end */
 /* clsmedia */
