@@ -3605,6 +3605,12 @@ display: flex;
 .clstab-panel.menulinkactive{
   display: block;
 }
+#menu-drawer .menu-drawer__navigation-container {
+  display: block;
+}
+#menu-drawer .menu-drawer__utility-links{
+  display: none;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
