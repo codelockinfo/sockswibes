@@ -22,8 +22,9 @@
     $(document).ready(function() {
     $(".set > a").on("click", function(e) {
         e.preventDefault();
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
+      if ($(this).hasClass("clsactive")) {
+        $(this).removeClass("cl
+                            sactive");
         $(this)
           .siblings(".clscontent")
           .slideUp(200);
@@ -38,8 +39,8 @@
           .find("i")
           .removeClass("fa-plus")
           .addClass("fa-minus");
-        $(".set > a").removeClass("active");
-        $(this).addClass("active");
+        $(".set > a").removeClass("clsactive");
+        $(this).addClass("clsactive");
         $(".clscontent").slideUp(200);
         $(this)
           .siblings(".clscontent")
