@@ -154,6 +154,12 @@
                             <div class="product-option">
                               {{ item.original_price | money }}
                             </div>
+
+                             <div class="productcompare-option">
+                             {% if forloop.first %}
+                                {{ item.variant.options[forloop.index0] }} {{ item.product.price[forloop.index0] }}
+                              {% endif %}
+                            </div>
                           {%- endif -%}
 
                           {%- if item.product.has_only_default_variant == false
