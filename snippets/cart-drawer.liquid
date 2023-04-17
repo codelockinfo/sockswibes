@@ -156,9 +156,9 @@
                             </div>
 
                              <div class="productcompare-option">
-                             {% if forloop.first %}
-                                {{ item.variant.options[forloop.index0] }} {{ item.product.price[forloop.index0] }}
-                              {% endif %}
+                            {% if product.compare_at_price_max > product.price %}
+  <span class="product-price__compare-at">{{ product.compare_at_price_max | money }}</span>
+{% endif %}
                             </div>
                           {%- endif -%}
 
