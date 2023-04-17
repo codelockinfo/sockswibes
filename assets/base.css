@@ -3639,7 +3639,7 @@ display: flex;
 .set > a{
   display: block;
 }
-.clsactive{
+.set > a.clsactive{
       background-color: #000;
     color: #fff;
 }
