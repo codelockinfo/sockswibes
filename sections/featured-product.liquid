@@ -142,7 +142,7 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'title' -%}
-                <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                <h2  style="font-size: {{ block.settings.font_size1 }}px;" class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {%- if product.title != blank -%}
                     {{ product.title | escape }}
                   {%- else -%}
@@ -583,6 +583,15 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "range",
+          "id": "font_size1",
+          "label": "Subtitle Font",
+          "default": 16,
+          "min": 8,
+          "max": 32,
+          "step": 1
         }
       ]
     },

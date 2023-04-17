@@ -1,8 +1,8 @@
 <div class="populatesction">
   <div class="popularcontain page-width-desktop ">
     <div class="lemmantitle">
-      <h2 class="lemtitle">{{ section.settings.lemotitle }}</h2>
-      <h4 class="subtitle">{{ section.settings.lenosub }}</h4>
+      <h2 class="lemtitle" style="font-size: {{ section.settings.font_size }}px;">{{ section.settings.lemotitle }}</h2>
+      <h4 class="subtitle" style="font-size: {{ section.settings.font_size2 }}px;">{{ section.settings.lenosub }}</h4>
     </div>
     <div class="boxcontainflex desktop">
       {% for block in section.blocks %}
@@ -16,7 +16,7 @@
                 <i class="fa fa-check" aria-hidden="true"></i>
               </div>
               <div class="signlineflex2">
-                <p class="subtosubtitle">{{ block.settings.subtitle }}</p>
+                <p class="subtosubtitle" style="font-size: {{ block.settings.font_size3 }}px;">{{ block.settings.subtitle }}</p>
               </div>
             </div>
           </div>
@@ -57,7 +57,26 @@
   "id" : "lenosub",
   "type" : "text",
   "label" : "Sub Title"
+},
+{
+  "type": "range",
+  "id": "font_size",
+  "label": "Font Size",
+  "default": 16,
+  "min": 8,
+  "max": 50,
+  "step": 1
+},
+{
+  "type": "range",
+  "id": "font_size2",
+  "label": "SubFont Size",
+  "default": 16,
+  "min": 8,
+  "max": 50,
+  "step": 1
 }
+
 ],
 "blocks":[
 {
@@ -73,6 +92,15 @@
   "id" : "subtitle",
   "type" : "text",
   "label" : "Sub Title"
+},
+{
+  "type": "range",
+  "id": "font_size3",
+  "label": "Font Size",
+  "default": 16,
+  "min": 8,
+  "max": 50,
+  "step": 1
 }
 ]
 }

@@ -174,9 +174,9 @@ endfor
   data-sticky-type="{{ section.settings.sticky_header_type }}" {% else %}div{% endif %}
   class="clscustomtabs header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header
-    class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
+    class="drawermunflex header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
     {%- if section.settings.menu != blank -%}
-    <header-drawer
+    <header-drawer class="dreamenu1"
       data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
       <details id="Details-menu-drawer-container" class="menu-drawer-container">
         <summary class="header__icon header__icon--menu header__icon--summary link focus-inset"
@@ -420,8 +420,13 @@ endfor
             </div>
           </div>
         </div>
+        
       </details>
     </header-drawer>
+    <div class="menudrawflex">
+      <p><a class="komdeatails" href="{{section.settings.komeurl}}">{{section.settings.kombutton}}</a></p>
+    </div>
+  
     {%- endif -%}
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
@@ -505,7 +510,7 @@ endfor
 
     {%- if section.settings.logo_position != 'middle-center' -%}
     {%- if request.page_type == 'index' -%}
-    <h1 class="header__heading">
+    <h1 class="menudrawflexlogo header__heading">
       {%- endif -%}
       <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
         {%- if settings.logo != blank -%}
@@ -1183,7 +1188,17 @@ requestAnimationFrame(this.hide.bind(this));
     "unit": "px",
     "label": "t:sections.all.padding.padding_bottom",
     "default": 20
-    }
+    },
+    {
+      "type": "url",
+      "id": "komeurl",
+        "label": "Button Url"
+   },
+   {
+    "type": "text",
+    "id": "kombutton",
+      "label": "Button Heading"
+ }
     ],
     "blocks": [
     {

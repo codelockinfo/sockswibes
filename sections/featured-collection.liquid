@@ -47,7 +47,7 @@
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.title }}</h2>
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}" style="font-size: {{ section.settings.font_size }}px;">{{ section.settings.title }}</h2>
       {%- endif -%}
       {%- if section.settings.description != blank
         or section.settings.show_description
@@ -151,6 +151,24 @@
       "id": "title",
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "default": 16,
+      "min": 8,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "font_size1",
+      "label": "Font Size",
+      "default": 16,
+      "min": 8,
+      "max": 50,
+      "step": 1
     },
     {
       "type": "select",

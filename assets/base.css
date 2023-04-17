@@ -3663,7 +3663,12 @@ display: flex;
     margin-top: 4%;
 }
 
-
+.drawermunflex .menudrawflex{
+  opacity: 0;
+}
+.clsfooter .footer-block--newsletter {
+  display: none;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
@@ -3748,6 +3753,43 @@ display: flex;
     line-height: 25px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .drawermunflex{
+    display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  .drawermunflex .dreamenu1{
+    flex: 0 0 10%;
+      max-width: 10%;
+  }
+  .drawermunflex .menudrawflex {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .drawermunflex .header__heading {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .drawermunflex .header__icons{
+    flex: 0 0 30%;
+    max-width: 30%;
+    justify-content: end;
+  }
+  .komdeatails {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #fff;
+    background-color: #f04b6e;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 8px;
+}
+.drawermunflex .menudrawflex{
+  opacity: 1;
+}
+}
 @media only screen and (max-width: 375px) {
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
@@ -3800,6 +3842,26 @@ display: flex;
 }
 .mentionall a{
   font-size: 14px;
+}
+
+.komdeatails {
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 10px;
+  background-color: unset;
+}
+.menudrawflex p {
+  margin: 0px;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #f04b6e;
+  padding: 3px;
+  border-radius: 7px;
+  width: 90%;
+   margin: 0 0 0 auto;
 }
 }
 /* cls007 end */

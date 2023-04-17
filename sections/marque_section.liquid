@@ -51,23 +51,25 @@
 
           <div class="clsheadtitle">
         {% if section.settings.image_marquee != blank %} 
-          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} 
+          <p style="font-size: {{ section.settings.font_size1 }}px;">{{ section.settings.heading }}</p>
+          
           </div>
         <div class="clsheadtitle">
         {% if section.settings.image_marquee != blank %} 
-          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} <p>{{ section.settings.heading }}</p>
           </div>
         <div class="clsheadtitle">
         {% if section.settings.image_marquee != blank %} 
-          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} <p>{{ section.settings.heading }}</p>
           </div>
           <div class="clsheadtitle">
         {% if section.settings.image_marquee != blank %} 
-          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} <p>{{ section.settings.heading }}</p>
           </div>
           <div class="clsheadtitle">
         {% if section.settings.image_marquee != blank %} 
-          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} {{ section.settings.heading }}
+          <img src="{{ section.settings.image_marquee| img_url:'master' }}">  {% endif %} <p>{{ section.settings.heading }}</p>
           </div>
         </div>
       </div>
@@ -82,6 +84,15 @@
         "id" : "heading",
         "type" : "text",
         "label" : "Heading"
+      },
+      {
+        "type": "range",
+        "id": "font_size1",
+        "label": "Font Size",
+        "default": 16,
+        "min": 8,
+        "max": 50,
+        "step": 1
       },
   {
    "id": "image_marquee",
