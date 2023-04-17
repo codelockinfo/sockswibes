@@ -3639,10 +3639,10 @@ display: flex;
 .set > a{
   display: block;
 }
-.set > a.active{
+/* .set > a.active{
       background-color: #000;
     color: #fff;
-}
+} */
 .paregraphwriter {
     background-color: #fff;
     padding: 10px 20px;
