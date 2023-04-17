@@ -3605,12 +3605,65 @@ display: flex;
 .clstab-panel.menulinkactive{
   display: block;
 }
+
 #menu-drawer .menu-drawer__navigation-container {
   display: block;
 }
 #menu-drawer .menu-drawer__utility-links{
   display: none;
 }
+
+.clsdrawermain dl .product-option {
+    display: none;
+}
+.clsdrawersmain .drawer__inner{
+      width: 50rem;
+}
+.clsdrawersmain .quantity{
+  min-height: calc((var(--inputs-border-width) * 2) + 2.8rem);
+}
+.clsdrawermain .quantity__input{
+  border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+}
+.clsdrawermain .quantity{
+  position: unset;
+    border: 1px solid #e3e3e3;
+}
+.clscontent{
+    display:none;
+}
+.blockstar .set a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set > a{
+  display: block;
+}
+.set > a.active{
+      background-color: #000;
+    color: #fff;
+}
+.paregraphwriter {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.acctitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+
+
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
