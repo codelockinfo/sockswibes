@@ -3639,6 +3639,10 @@ display: flex;
 .set > a{
   display: block;
 }
+.clsactive{
+      background-color: #000;
+    color: #fff;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
