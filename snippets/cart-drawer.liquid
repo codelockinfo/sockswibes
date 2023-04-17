@@ -156,8 +156,8 @@
                             </div>
 
                              <div class="productcompare-option">
-                                {{item.compare_at_price}}0000000
-                            {% if item.compare_at_price  > item.original_price %}
+                               ~{{  item.compare_at_price }}???
+                            {% if item.compare_at_price %}
                              
     <span class="product-price__compare-at">{{ item.compare_at_price  | money }}</span>
 {% endif %}
