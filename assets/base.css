@@ -3870,5 +3870,9 @@ display: flex;
     width: 100%;
     opacity: 1;
 }
+.rebuy-cart__flyout div#rebuy-cart__progress-bar-meter-label{
+      font-size: 16px;
+    color: #000;
+}
 /* cls007 end */
 
