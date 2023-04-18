@@ -3874,7 +3874,7 @@ display: flex;
       font-size: 16px;
     color: #000;
 }
-.rebuy-cart__flyout .rebuy-product-block.crikbuzz-combo-pack-of-loafer{
+.rebuy-cart__flyout .rebuy-product-block{
       display: flex !important;
     flex-flow: row;
     flex-wrap: wrap;
