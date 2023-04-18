@@ -3878,6 +3878,7 @@ display: flex;
       display: flex !important;
     flex-flow: row;
     flex-wrap: wrap;
+      align-items: center;
 }
 .rebuy-widget .rebuy-product-grid.large-style-list .rebuy-product-block .rebuy-product-media{
       width: 20% !important;
