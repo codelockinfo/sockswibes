@@ -3864,5 +3864,11 @@ display: flex;
    margin: 0 0 0 auto;
 }
 }
+
+.rebuy-cart__flyout .rebuy-cart__progress-bar-meter-fill {
+    background: #077337;
+    width: 100%;
+    opacity: 1;
+}
 /* cls007 end */
 
