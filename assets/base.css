@@ -3890,7 +3890,7 @@ display: flex;
 .rebuy-cart__flyout .rebuy-product-actions{
       width: 30% !important;
 }
-.rebuy-cart__flyout .rebuy-widget .rebuy-button{
+.rebuy-cart__flyout .rebuy-widget .rebuy-button, button.rebuy-button.rebuy-cart__checkout-button.block{
   background: #000;
     border-color: #000;
 }
