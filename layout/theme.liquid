@@ -252,11 +252,9 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
-    <!--
-      {%- if settings.cart_type == 'drawer' -%}
-        {%- render 'cart-drawer' -%}
-      {%- endif -%}
-    -->
+    {%- if settings.cart_type == 'drawer' -%}
+      {%- render 'cart-drawer' -%}
+    {%- endif -%}
 
     {% sections 'header-group' %}
 
