@@ -3882,16 +3882,13 @@ display: flex;
 }
 .rebuy-widget .rebuy-product-grid.large-style-list .rebuy-product-block .rebuy-product-media{
       width: 20% !important;
-order:1;
   
 }
 .rebuy-cart__flyout .rebuy-product-info{
       width: 50% !important;
-  order:2;
 }
 .rebuy-cart__flyout .rebuy-product-actions{
       width: 30% !important;
-  order:3;
 }
 /* cls007 end */
 
