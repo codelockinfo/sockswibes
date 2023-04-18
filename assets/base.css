@@ -3885,5 +3885,8 @@ display: flex;
 .rebuy-cart__flyout .rebuy-product-info{
       width: 50%;
 }
+.rebuy-cart__flyout .rebuy-product-actions{
+      width: 30%;
+}
 /* cls007 end */
 
