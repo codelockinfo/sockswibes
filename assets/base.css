@@ -3865,7 +3865,7 @@ display: flex;
 }
 }
 
-.rebuy-cart__progress-bar-meter{
+.rebuy-cart__flyout .rebuy-cart__progress-bar-meter{
     background: #077337;
     width: 100%;
     opacity: 1;
