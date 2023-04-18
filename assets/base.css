@@ -3890,5 +3890,9 @@ display: flex;
 .rebuy-cart__flyout .rebuy-product-actions{
       width: 30% !important;
 }
+.rebuy-cart__flyout .rebuy-widget .rebuy-button{
+  background: #000;
+    border-color: #000;
+}
 /* cls007 end */
 
