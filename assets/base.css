@@ -3880,13 +3880,13 @@ display: flex;
     flex-wrap: wrap;
 }
 .rebuy-cart__flyout .rebuy-product-media{
-      width: 20%;
+      width: 20% !important;
 }
 .rebuy-cart__flyout .rebuy-product-info{
-      width: 50%;
+      width: 50% !important;
 }
 .rebuy-cart__flyout .rebuy-product-actions{
-      width: 30%;
+      width: 30% !important;
 }
 /* cls007 end */
 
