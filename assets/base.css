@@ -3894,5 +3894,8 @@ display: flex;
   background: #000;
     border-color: #000;
 }
+.rebuy-cart__flyout .rebuy-money.sale, .rebuy-widget .rebuy-money.sale{
+      color: #ff0044;
+}
 /* cls007 end */
 
