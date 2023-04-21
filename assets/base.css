@@ -3910,6 +3910,9 @@ h1.title.title--primary.inline-richtext{
   width: 78%;
   left: 11%;
 }
+  #shopify-section-template--18544998449425__featured_collection .grid__item {
+    padding: 2%;
+}
 
 }
 @media only screen and (max-width: 514px) {
