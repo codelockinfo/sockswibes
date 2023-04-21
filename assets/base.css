@@ -3963,7 +3963,6 @@ display: flex;
 .mentionall a{
   font-size: 14px;
 }
-
 .komdeatails {
   font-size: 12px;
   letter-spacing: 0px;
@@ -3987,7 +3986,6 @@ display: flex;
   .drawermunflex a.header__heading-link.link.link--text.focus-inset{
         width: 50%;
   }
-
 }
 
 
