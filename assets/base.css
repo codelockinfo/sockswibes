@@ -3857,6 +3857,7 @@ display: flex;
     display: flex;
       flex-wrap: wrap;
       width: 100%;
+    justify-content: space-between;
   }
   .drawermunflex .dreamenu1{
     flex: 0 0 10%;
