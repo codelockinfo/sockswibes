@@ -3899,6 +3899,10 @@ display: flex;
 
 }
 @media only screen and (max-width: 375px) {
+  .smareccose form {
+    width: 100%;
+    left: 0%;
+}
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
 }
