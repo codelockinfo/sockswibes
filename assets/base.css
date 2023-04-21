@@ -3888,6 +3888,13 @@ display: flex;
       display: block;
 }
 }
+@media only screen and (max-width: 650px) {
+
+
+}
+@media only screen and (max-width: 514px) {
+
+}
 @media only screen and (max-width: 375px) {
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
