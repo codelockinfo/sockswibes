@@ -3889,7 +3889,10 @@ display: flex;
 }
 }
 @media only screen and (max-width: 650px) {
-
+.smareccose form{
+  width: 78%;
+  left: 11%;
+}
 
 }
 @media only screen and (max-width: 514px) {
