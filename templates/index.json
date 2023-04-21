@@ -278,6 +278,9 @@
         "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-5",
         "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-6"
       ],
+      "custom_css": [
+        ".product.grid {display: flex; align-items: center;}"
+      ],
       "settings": {
         "product": "chaussette-classique-fil-decosse-bleu-marine",
         "color_scheme": "background-1",
