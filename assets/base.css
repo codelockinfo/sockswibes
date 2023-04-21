@@ -4017,4 +4017,9 @@ button.buttoncls {
     border-radius: 40px;
     width: 100%;
 }
+.buttoncls a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
 /*cls013 end  */
