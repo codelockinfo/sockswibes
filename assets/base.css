@@ -3769,12 +3769,12 @@ display: flex;
     max-width: 30%;
   }
   .drawermunflex .header__heading {
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
   .drawermunflex .header__icons{
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 20%;
+    max-width: 20%;
     justify-content: end;
   }
   .komdeatails {
