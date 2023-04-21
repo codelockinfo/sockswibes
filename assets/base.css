@@ -3234,6 +3234,10 @@ s.price-item.price-item--regular {
 
 
 /* cls007 start */
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .announcementflex {
   display: flex;
   flex-wrap: wrap;
