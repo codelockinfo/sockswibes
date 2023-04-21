@@ -129,7 +129,6 @@
           data-url="{{ product.url }}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-          +0000000 {{ product_form_id }}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
