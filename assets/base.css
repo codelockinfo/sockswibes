@@ -4007,9 +4007,9 @@ h2.title {
 h2.lemtitle {
     text-transform: uppercase;
 }
-.grid__item {
+/* .grid__item {
     padding: 1%;
-}
+} */
 button.buttoncls {
     background: transparent;
     border: 1px solid;
