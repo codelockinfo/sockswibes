@@ -3669,6 +3669,42 @@ display: flex;
 .clsfooter .footer-block--newsletter {
   display: none;
 }
+
+.rebuy-cart__flyout .rebuy-cart__progress-bar-meter, .rebuy-cart__flyout .rebuy-cart__progress-bar-meter-fill{
+    background: #077337;
+    width: 100%;
+    opacity: 1;
+}
+.rebuy-cart__flyout div#rebuy-cart__progress-bar-meter-label{
+      font-size: 16px;
+    color: #000;
+}
+.rebuy-cart__flyout .rebuy-product-block{
+      display: flex !important;
+    flex-flow: row !important;
+    flex-wrap: wrap !important;
+      align-items: center !important;
+}
+.rebuy-widget .rebuy-product-grid.large-style-list .rebuy-product-block .rebuy-product-media{
+      width: 20% !important;
+  
+}
+.rebuy-cart__flyout .rebuy-product-info{
+      width: 50% !important;
+}
+.rebuy-cart__flyout .rebuy-product-actions{
+      width: 30% !important;
+}
+.rebuy-cart__flyout .rebuy-widget .rebuy-button, button.rebuy-button.rebuy-cart__checkout-button.block{
+  background: #000;
+    border-color: #000;
+}
+.rebuy-money.sale, .rebuy-widget .rebuy-money.sale{
+      color: #ff0044 !important;
+}
+.clsdrawersmain.drawer.active {
+    visibility: hidden;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
@@ -3873,40 +3909,6 @@ display: flex;
 }
 }
 
-.rebuy-cart__flyout .rebuy-cart__progress-bar-meter, .rebuy-cart__flyout .rebuy-cart__progress-bar-meter-fill{
-    background: #077337;
-    width: 100%;
-    opacity: 1;
-}
-.rebuy-cart__flyout div#rebuy-cart__progress-bar-meter-label{
-      font-size: 16px;
-    color: #000;
-}
-.rebuy-cart__flyout .rebuy-product-block{
-      display: flex !important;
-    flex-flow: row !important;
-    flex-wrap: wrap !important;
-      align-items: center !important;
-}
-.rebuy-widget .rebuy-product-grid.large-style-list .rebuy-product-block .rebuy-product-media{
-      width: 20% !important;
-  
-}
-.rebuy-cart__flyout .rebuy-product-info{
-      width: 50% !important;
-}
-.rebuy-cart__flyout .rebuy-product-actions{
-      width: 30% !important;
-}
-.rebuy-cart__flyout .rebuy-widget .rebuy-button, button.rebuy-button.rebuy-cart__checkout-button.block{
-  background: #000;
-    border-color: #000;
-}
-.rebuy-money.sale, .rebuy-widget .rebuy-money.sale{
-      color: #ff0044 !important;
-}
-.clsdrawersmain.drawer.active {
-    visibility: hidden;
-}
+
 /* cls007 end */
 
