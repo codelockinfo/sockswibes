@@ -3783,8 +3783,7 @@ display: flex;
     color: #fff;
     background-color: #f04b6e;
     text-decoration: none;
-    padding: 7px;
-    border-radius: 8px;
+     border-radius: 8px;
 }
 .drawermunflex .menudrawflex{
       display: block;
