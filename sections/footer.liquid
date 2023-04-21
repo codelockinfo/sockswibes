@@ -83,15 +83,19 @@
                   {%- when 'socialicon' -%}
                     <div class="mainsocialflex">
                       <div class="socailicon">
-                        <div class="socialogistic">
-                          <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                        </div>
+                        {% comment %}
+                          <div class="socialogistic">
+                            <a href="{{block.settings.iconurl1}}"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                          </div>
+                        {% endcomment %}
                       </div>
 
                       <div class="socailicon">
-                        <div class="socialogistic">
-                          <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
-                        </div>
+                        <!--
+                          <div class="socialogistic">
+                            <a href="{{block.settings.iconurl2}}"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                          </div>
+                        -->
                       </div>
                     </div>
                   {%- when 'link_list' -%}
