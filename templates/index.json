@@ -57,6 +57,7 @@
     },
     "ce9dfba9-b361-469f-8502-bec2f6c58c30": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--18544998449425__ce9dfba9-b361-469f-8502-bec2f6c58c30-1681216562b824f06e-0": {
           "type": "heading",
@@ -104,11 +105,12 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "19€ <br> 2 PAIRES",
+            "heading": "19€  2 PAIRES",
             "heading_size": "h0"
           }
         },
@@ -225,7 +227,6 @@
       "blocks": {
         "template--18544998449425__cea45325-dadd-42d6-a536-ca19efe8a689-1681459490ee4b3189-0": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
