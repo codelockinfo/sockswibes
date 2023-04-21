@@ -3744,6 +3744,9 @@ display: flex;
 .clsdrawersmain.drawer.active {
     visibility: hidden;
 }
+.livraisonmargin {
+    margin: 0px;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
