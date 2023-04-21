@@ -3911,7 +3911,7 @@ h1.title.title--primary.inline-richtext{
   left: 11%;
 }
   #shopify-section-template--18544998449425__featured_collection .grid__item {
-    padding: 2%;
+    padding: 2% !important;
 }
 
 }
