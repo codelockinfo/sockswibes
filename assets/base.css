@@ -4026,7 +4026,9 @@ form.needsclick {
     margin: 0 !important;
 }
 
-
+.footer__content-bottom-wrapper {
+      flex-wrap: nowrap !important;
+}
 
 
 
