@@ -3277,12 +3277,7 @@ h1,h2,h3,h4,h5,p,a{
       .main-marq{
         padding: 11px 0px;
       }
-        #{{ section.id }} .main-marq {
-    background: {{section.settings.bg-color}};
-    }
-    #{{ section.id }} .main-marq .text-marquee .d-flex-b .clsheadtitle span{
-    color: {{section.settings.clrmer}};
-       }
+
       .clsheadtitle > img{
         margin-right:10px;
         width:30px;
