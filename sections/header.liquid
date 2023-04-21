@@ -424,7 +424,7 @@ endfor
       </details>
     </header-drawer>
     <div class="menudrawflex">
-      <p><a class="komdeatails" href="{{section.settings.komeurl}}" style="background-color: #f04b6e;">{{section.settings.kombutton}}</a></p>
+      <p><a class="komdeatails" href="{{section.settings.komeurl}}" style="background-color: {{ section.settings.bgcollor }};">{{section.settings.kombutton}}</a></p>
     </div>
   
     {%- endif -%}
@@ -1198,6 +1198,11 @@ requestAnimationFrame(this.hide.bind(this));
     "type": "text",
     "id": "kombutton",
       "label": "Button Heading"
+ },
+      {
+    "type": "color",
+    "id": "bgcollor",
+      "label": "Active Dot Color"
  }
     ],
     "blocks": [
