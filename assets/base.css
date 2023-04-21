@@ -4057,8 +4057,8 @@ form.needsclick {
     font-size: 12px;
 }
 }
-.clsfooter  .lsfooter {
-  padding:0px;
+.clsfooter  .disclosure__button {
+  padding-right:0px;
 }
 
 
