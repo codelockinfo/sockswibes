@@ -4004,6 +4004,9 @@ h1.title.title--primary.inline-richtext{
 h2.title {
     text-transform: uppercase;
 }
+h2.lemtitle {
+    text-transform: uppercase;
+}
 .grid__item {
     padding: 1%;
 }
