@@ -3799,6 +3799,9 @@ h1.title.title--primary.inline-richtext{
 }
 }
 @media only screen and (max-width: 749px) {
+    .footer-block:nth-child(4) {
+    width: 100% !important;
+}
 .footerbackground.footer .grid {
   display: flex;
 }
@@ -3860,9 +3863,7 @@ h1.title.title--primary.inline-richtext{
   }
 
 @media only screen and (max-width: 480px) {
-  .footer-block:nth-child(4) {
-    width: 100% !important;
-}
+
   .drawermunflex{
     display: flex;
       flex-wrap: wrap;
