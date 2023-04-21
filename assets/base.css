@@ -4010,5 +4010,11 @@ h2.lemtitle {
 .grid__item {
     padding: 1%;
 }
-
+button.buttoncls {
+    background: transparent;
+    border: 1px solid;
+    padding: 12px 15px;
+    border-radius: 40px;
+    width: 100%;
+}
 /*cls013 end  */
