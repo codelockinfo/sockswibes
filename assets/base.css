@@ -3799,6 +3799,9 @@ h1.title.title--primary.inline-richtext{
 }
 }
 @media only screen and (max-width: 749px) {
+  .footer__column--info{
+    margin-top: 40px;
+  }
     .footer-block:nth-child(4) {
     width: 100% !important;
 }
