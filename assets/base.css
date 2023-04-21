@@ -3794,6 +3794,10 @@ display: flex;
 .signlineflexdesign{
       padding: 7px 3px 7px 8px;
 }
+  .drawermunflex .header__icon{
+    height: 3.4rem;
+    width: 3.4rem;
+  }
 .lemtitle, .clstarget h2.image-with-text__heading.inline-richtext.h1{
   font-size: 22px;
   line-height: 30px;
