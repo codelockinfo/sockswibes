@@ -214,7 +214,7 @@
               endif
             -%}
             {%- if card_product.variants.size > 1 or qty_rules -%}
-              <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
+              <modal-opener data-modal="#QuickAdd-{{ }}">
                 <button
                   id="{{ product_form_id }}-submit"
                   type="submit"
