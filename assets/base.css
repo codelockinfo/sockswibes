@@ -3235,7 +3235,7 @@ s.price-item.price-item--regular {
 
 /* cls007 start */
 
-body{
+h1,h2,h3,h4,h5,p,a{
   font-family: 'Poppins', sans-serif;
 }
 .announcementflex {
