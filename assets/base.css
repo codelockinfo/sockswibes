@@ -3997,3 +3997,7 @@ h1.title.title--primary.inline-richtext{
 
 /* cls007 end */
 
+/* cls013 start */
+.slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
+    display: none;
+}
