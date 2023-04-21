@@ -39,6 +39,14 @@
             "iconurl1": "",
             "iconurl2": ""
           }
+        },
+        "3a62eb8f-b6ec-4272-b24e-7c49052be721": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
@@ -46,7 +54,8 @@
         "0c168b99-5dc5-45a3-99ab-435a57fafbc8",
         "6b5a92d1-65c4-47af-a4ae-ac50935ae343",
         "586afc1b-7478-435c-9edf-07123a3cf6d8",
-        "f27328e2-e7c0-48e8-a338-9e46ec10f76f"
+        "f27328e2-e7c0-48e8-a338-9e46ec10f76f",
+        "3a62eb8f-b6ec-4272-b24e-7c49052be721"
       ],
       "settings": {
         "color_scheme": "background-1",
