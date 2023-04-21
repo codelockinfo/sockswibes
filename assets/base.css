@@ -3747,7 +3747,7 @@ display: flex;
 .livraisonmargin {
     margin: 0px;
 }
-.smareccose .featured-product h2 {
+.smareccose .featured-product h2, .collection__title .colbetter h2 {
       font-weight: bold;
       font-family: 'Poppins';
 }
