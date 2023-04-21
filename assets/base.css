@@ -3902,14 +3902,15 @@ display: flex;
   text-align: center;
   color: #fff;
   background-color: #f04b6e;
-  padding: 3px;
+    padding: 3px 0px 5px;
   border-radius: 7px;
-  width: 90%;
+  width: 100%;
    margin: 0 0 0 auto;
 }
   .drawermunflex a.header__heading-link.link.link--text.focus-inset{
         width: 50%;
   }
+
 }
 
 
