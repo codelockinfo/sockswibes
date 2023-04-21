@@ -4053,6 +4053,9 @@ form.needsclick {
     font-size: 13px;
     line-height: 10px;
 }
+  .price__container {
+    font-size: 12px;
+}
 }
 
 
