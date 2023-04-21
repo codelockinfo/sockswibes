@@ -3868,8 +3868,8 @@ display: flex;
     max-width: 20%;
   }
   .drawermunflex .header__heading {
-    flex: 0 0 20%;
-    max-width: 20%;
+    flex: 0 0 40%;
+    max-width: 40%;
   }
   .drawermunflex .header__icons{
     flex: 0 0 20%;
