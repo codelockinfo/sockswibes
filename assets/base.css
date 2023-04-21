@@ -3751,6 +3751,9 @@ display: flex;
       font-weight: bold;
       font-family: 'Poppins';
 }
+h1.title.title--primary.inline-richtext{
+      font-weight: 700;
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
