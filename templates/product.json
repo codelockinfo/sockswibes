@@ -137,6 +137,7 @@
     },
     "1681449340980d1147": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "b4b3cddd-a70c-4499-8714-250607fa7aab": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
@@ -159,6 +160,8 @@
       "type": "featured-collection",
       "settings": {
         "title": "You may also like",
+        "font_size": 16,
+        "font_size1": 16,
         "heading_size": "h2",
         "description": "",
         "show_description": false,
