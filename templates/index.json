@@ -151,8 +151,8 @@
       ],
       "settings": {
         "title": "Le must-have pour vos pieds",
-        "font_size": 25,
-        "font_size1": 16,
+        "font_size": 24,
+        "font_size1": 14,
         "heading_size": "h1",
         "description": "",
         "show_description": false,
