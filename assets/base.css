@@ -3908,7 +3908,7 @@ h1.title.title--primary.inline-richtext{
       display: block;
 }
 }
-@media only screen and (max-width: 650px) {
+ {
 .smareccose form{
   width: 78%;
   left: 11%;
@@ -3920,10 +3920,7 @@ span.price-item.price-item--sale.price-item--last {
     font-size: 14px;
     line-height: 0px;
 }
-  .buttoncls a {
-    font-size: 13px;
-    line-height: 10px;
-}
+
   
 }
 @media only screen and (max-width: 514px) {
@@ -4051,7 +4048,12 @@ form.needsclick {
 .footer__content-bottom-wrapper {
       flex-wrap: nowrap !important;
 }
-
+@media only screen and (max-width: 650px){
+    .buttoncls a {
+    font-size: 13px;
+    line-height: 10px;
+}
+}
 
 
 
