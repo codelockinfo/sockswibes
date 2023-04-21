@@ -3828,8 +3828,11 @@ display: flex;
   }
   .clstarget .image-with-text__text.rte.body p {
     font-size: 18px;
-    line-height: 25px;
-  }
+   
+    .smareccose .product__info-wrapper.grid__item{
+      order: 1;
+    text-align: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {
