@@ -146,6 +146,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".grid__item {padding: 1%;}"
+      ],
       "settings": {
         "title": "Le must-have pour vos pieds",
         "font_size": 25,
