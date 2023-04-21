@@ -3747,6 +3747,10 @@ display: flex;
 .livraisonmargin {
     margin: 0px;
 }
+.smareccose .featured-product h2 {
+      font-weight: bold;
+      font-family: 'Poppins';
+}
 /* rebuy app end */
 /* clsmedia */
 @media only screen and (max-width: 1500px) {
