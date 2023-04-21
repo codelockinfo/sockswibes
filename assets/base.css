@@ -3833,6 +3833,9 @@ display: flex;
       order: 1;
     text-align: center;
     }
+    .smareccose .product__info-wrapper.grid__item {
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 480px) {
