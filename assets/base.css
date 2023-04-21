@@ -4001,7 +4001,9 @@ h1.title.title--primary.inline-richtext{
 .slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
     display: none;
 }
-
+h2.title {
+    text-transform: uppercase;
+}
 
 
 /*cls013 end  */
