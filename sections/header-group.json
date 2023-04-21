@@ -34,7 +34,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "komeurl": "shopify:\/\/collections",
-        "kombutton": "Emma's Faves"
+        "kombutton": "Emma's"
       }
     },
     "announcement-bar": {
@@ -100,10 +100,10 @@
     "df8e83d5-da5e-463d-b54f-5f1f309b1372": {
       "type": "marque_section",
       "settings": {
-        "heading": "<span>LIVRAISON OFFERTE DÈS 54€ D'ACHAT   🎁<\/span>",
+        "heading": "<span>LIVRAISON OFFERTE DÈS 54€ D'ACHAT <\/span>",
         "font_size1": 16,
         "bg-color": "#f04b6e",
-        "clrmer": "#fff"
+        "clrmer": "#ffffff"
       }
     }
   },
