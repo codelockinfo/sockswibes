@@ -193,6 +193,53 @@
         "padding_bottom": 36
       }
     },
+    "28835b66-92b7-48be-91d8-298e3044e36a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "font_size1": 16,
+            "heading_size": "h1"
+          }
+        },
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "font_size2": 16,
+            "text_style": "body"
+          }
+        },
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-0",
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-1",
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/leschaussettesdenicoavant_apres.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -216,6 +263,7 @@
     "1681449340980d1147",
     "df79ddcb-2d29-421c-8e7d-47c2d1223c5b",
     "6ca6d26b-e477-4822-b79d-a02402ada042",
+    "28835b66-92b7-48be-91d8-298e3044e36a",
     "related-products"
   ]
 }
