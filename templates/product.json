@@ -149,6 +149,21 @@
         "include_margins": true
       }
     },
+    "df79ddcb-2d29-421c-8e7d-47c2d1223c5b": {
+      "type": "video",
+      "settings": {
+        "heading": "La qualité et la douceur du fil d'Écosse",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
+    },
     "6ca6d26b-e477-4822-b79d-a02402ada042": {
       "type": "featured-collection",
       "settings": {
@@ -199,6 +214,7 @@
   "order": [
     "main",
     "1681449340980d1147",
+    "df79ddcb-2d29-421c-8e7d-47c2d1223c5b",
     "6ca6d26b-e477-4822-b79d-a02402ada042",
     "related-products"
   ]
