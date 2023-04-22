@@ -56,7 +56,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "DESCRIPTION",
-            "icon": "none",
+            "icon": "price_tag",
             "content": "<p>Élégance intemporelle : Fabriquées avec du fil d'Écosse de haute qualité, ces chaussettes offrent une apparence raffinée et intemporelle. Elles sont parfaites pour compléter votre tenue formelle ou décontractée, que ce soit au bureau, lors d'événements spéciaux ou pour une soirée élégante. <\/p><p><strong>Details:<\/strong><\/p><ul><li>Chaussettes Mi-mollet<\/li><li>Extra Fine<\/li><li>Modele Classique<\/li><\/ul>",
             "page": ""
           }
@@ -64,8 +64,8 @@
         "9c2f9404-b743-40ba-b93b-d49955941c50": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "SIZE GUID",
-            "icon": "none",
+            "heading": "GUIDE DE TAILE",
+            "icon": "ruler",
             "content": "",
             "page": "size-guid"
           }
@@ -73,25 +73,19 @@
         "50674aff-4bfa-466e-96f3-7c768b88e99c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "SHIPPING & RETURNS",
-            "icon": "none",
-            "content": "<p><strong>Shipping:<\/strong><\/p><p>FREE SHIPPING on all U.S. orders $150+<\/p><p>We ship worldwide and international shipping costs are determined at checkout.<\/p><p><strong>Returns:<\/strong><\/p><p>Looking to return or exchange your BSR order? Don’t worry, we got you covered. We offer easy returns and exchanges within 30 days of your orders delivery date. Sale items are final, but can be exchanged for items of equal or lesser value.<\/p>",
+            "heading": "LIVRAISON ET RETOUR",
+            "icon": "return",
+            "content": "<p><strong>Livraisons:<\/strong><\/p><p>LIVRAISON GRATUITE en EUROPE pour les commandes de +70€<\/p><p>Nous expédions dans le monde entier et les frais d'expédition internationaux sont déterminés à la caisse.<\/p><p>La livraison de nos chaussettes est <strong>rapide<\/strong>, fiable et abordable, avec des frais de livraison entre 5 à 10€ en France<\/p><p><strong>Retours:<\/strong><\/p><p> Nous avons une politique de r<strong>etour et de remboursement sous 14 jours<\/strong> pour garantir votre satisfaction. Achetez en toute confiance chez nous pour une expérience de magasinage en ligne<strong> sans tracas.<\/strong><\/p>",
             "page": ""
           }
         },
         "16679528-cba7-4d23-92f9-81c47212a131": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "REVIEWS",
-            "icon": "none",
-            "content": "",
+            "heading": "Conseil d’entretien",
+            "icon": "iron",
+            "content": "<p>Pour préserver la qualité et la douceur du fil d'Écosse, il est recommandé de laver les chaussettes à la main ou en machine à basse température (30°C maximum).<\/p>",
             "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         },
         "2e82a7cc-4d9a-4bf5-9d55-6ca432b38d5d": {
@@ -117,7 +111,6 @@
         "9c2f9404-b743-40ba-b93b-d49955941c50",
         "50674aff-4bfa-466e-96f3-7c768b88e99c",
         "16679528-cba7-4d23-92f9-81c47212a131",
-        "share",
         "2e82a7cc-4d9a-4bf5-9d55-6ca432b38d5d"
       ],
       "settings": {
