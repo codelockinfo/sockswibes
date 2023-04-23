@@ -211,19 +211,11 @@
             "font_size2": 12,
             "text_style": "body"
           }
-        },
-        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-0",
-        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-1",
-        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-2"
+        "template--18544998482193__28835b66-92b7-48be-91d8-298e3044e36a-1682188187793115c7-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/avant_apres_socks.png",
