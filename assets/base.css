@@ -3847,7 +3847,7 @@ h1.title.title--primary.inline-richtext{
     text-align: center;
     }
 .product__info-wrapper.grid__item {
-    text-align: center;
+    text-align: none;
 }
    .smareccose .grid__item.product__media-wrapper {
     order: 2;
