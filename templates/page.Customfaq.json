@@ -147,6 +147,46 @@
       "settings": {
         "accordian1": "Nos abonnements"
       }
+    },
+    "4145b8b1-6e84-4db0-bbf4-b23d9cebfef6": {
+      "type": "Faqcontain",
+      "blocks": {
+        "f2320e16-0513-4599-879a-9b67511631a6": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Où puis-je contacter le service client si j'ai d'autres questions ?",
+            "accordianperegraph": "Vous pouvez nous contacter via notre page de contact ou en envoyant un e-mail à contact@la-chausetterie.com"
+          }
+        }
+      },
+      "block_order": [
+        "f2320e16-0513-4599-879a-9b67511631a6"
+      ],
+      "settings": {
+        "accordian1": "Nous contacter"
+      }
+    },
+    "dd59d25c-006e-47cb-b5ed-328ff4da1e38": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18620988621073__dd59d25c-006e-47cb-b5ed-328ff4da1e38-1682243816c256ecfe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nous espérons que ces réponses vous ont aidé. Si vous avez d'autres questions, n'hésitez pas à nous contacter. Merci de faire confiance à notre marque de chaussettes en fil d'Écosse pour homme !<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18620988621073__dd59d25c-006e-47cb-b5ed-328ff4da1e38-1682243816c256ecfe-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -154,6 +194,8 @@
     "eb350474-3f75-4877-a960-f30fe2f67a3a",
     "19459029-7b6a-4d1f-849d-97a52015ea1d",
     "cd24894c-c882-4c03-b8fa-f248efdc873c",
-    "bec10134-e491-48e5-a809-eaf3eba1786e"
+    "bec10134-e491-48e5-a809-eaf3eba1786e",
+    "4145b8b1-6e84-4db0-bbf4-b23d9cebfef6",
+    "dd59d25c-006e-47cb-b5ed-328ff4da1e38"
   ]
 }
