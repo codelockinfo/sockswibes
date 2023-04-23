@@ -8,28 +8,58 @@
         "padding_bottom": 28
       }
     },
+    "eb350474-3f75-4877-a960-f30fe2f67a3a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18620988621073__eb350474-3f75-4877-a960-f30fe2f67a3a-1682243816c256ecfe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Les réponses à toutes vos questions",
+            "heading_size": "h2"
+          }
+        },
+        "5e866f41-1f35-4c1a-8776-cf35e10d86b2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bienvenue dans notre section FAQ ! Vous trouverez ci-dessous les réponses aux questions fréquemment posées sur nos chaussettes en fil d'Écosse pour homme :<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18620988621073__eb350474-3f75-4877-a960-f30fe2f67a3a-1682243816c256ecfe-0",
+        "5e866f41-1f35-4c1a-8776-cf35e10d86b2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "19459029-7b6a-4d1f-849d-97a52015ea1d": {
       "type": "Faqcontain",
       "blocks": {
         "747aa456-bd54-4bfa-a25d-99299a8a5856": {
           "type": "image",
           "settings": {
-            "accordiatitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "accordianperegraph": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            "accordiatitle": "Qu'est-ce que le fil d'Écosse et pourquoi est-il spécial ?",
+            "accordianperegraph": "Le fil d'Écosse est un type de coton égyptien de haute qualité, fin et durable. Il est réputé pour sa douceur, sa résistance et sa capacité à garder les pieds au sec et confortables tout au long de la journée. Nos chaussettes en fil d'Écosse sont conçues pour offrir un confort exceptionnel et une qualité supérieure."
           }
         },
         "f4d17efd-b51c-485f-acc0-414a2d576d23": {
           "type": "image",
           "settings": {
-            "accordiatitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "accordianperegraph": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            "accordiatitle": " Quelles sont les tailles disponibles pour vos chaussettes en fil d'Écosse ?",
+            "accordianperegraph": "Nous proposons une large gamme de tailles pour nos chaussettes en fil d'Écosse, allant du 39 au 48, pour s'adapter à différentes pointures de pieds."
           }
         },
         "87199576-f9ab-40e5-88b7-3f8cffafc6e3": {
           "type": "image",
           "settings": {
-            "accordiatitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "accordianperegraph": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            "accordiatitle": "Comment puis-je prendre soin de mes chaussettes en fil d'Écosse ?",
+            "accordianperegraph": "Pour préserver la qualité de vos chaussettes en fil d'Écosse, nous vous recommandons de les laver conformément aux instructions d'entretien du fabricant, d'éviter de les mélanger avec des articles rugueux ou abrasifs lors du lavage et du séchage (de préférence à l’air libre) , et de les ranger dans un endroit sec et propre."
           }
         }
       },
@@ -39,12 +69,91 @@
         "87199576-f9ab-40e5-88b7-3f8cffafc6e3"
       ],
       "settings": {
-        "accordian1": "Faq"
+        "accordian1": "Nos chaussettes:"
+      }
+    },
+    "cd24894c-c882-4c03-b8fa-f248efdc873c": {
+      "type": "Faqcontain",
+      "blocks": {
+        "6defdde3-2555-4c9e-87dd-d810dc2f864f": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Quels sont les frais d'expédition pour les commandes de chaussettes en fil d'Écosse ?",
+            "accordianperegraph": "Nous offrons également la livraison gratuite pour les commandes de plus de 70€.Nos frais d'expédition varient en fonction de la destination et du poids de la commande. Vous pouvez consulter les détails sur notre page de politique d'expédition."
+          }
+        },
+        "1a7b3963-0baa-477a-afcc-98777fabc264": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": " Quelles sont les tailles disponibles pour vos chaussettes en fil d'Écosse ?",
+            "accordianperegraph": "Nous proposons une large gamme de tailles pour nos chaussettes en fil d'Écosse, allant du 39 au 48, pour s'adapter à différentes pointures de pieds."
+          }
+        },
+        "31fe2362-bce1-4c78-92da-7f0c3f082529": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": " Quelle est votre politique de retour et de remboursement ?",
+            "accordianperegraph": "Nous offrons une politique de retour et de remboursement sous 14 jours pour les chaussettes en fil d'Écosse non portées et dans leur emballage d'origine. Pour plus de détails, veuillez consulter notre page de politique de retour."
+          }
+        }
+      },
+      "block_order": [
+        "6defdde3-2555-4c9e-87dd-d810dc2f864f",
+        "1a7b3963-0baa-477a-afcc-98777fabc264",
+        "31fe2362-bce1-4c78-92da-7f0c3f082529"
+      ],
+      "settings": {
+        "accordian1": "Livraisons et retours"
+      }
+    },
+    "bec10134-e491-48e5-a809-eaf3eba1786e": {
+      "type": "Faqcontain",
+      "blocks": {
+        "32b85ae5-9067-4407-b03f-698407cf85ad": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Proposez-vous un service d'abonnement pour recevoir des chaussettes chaque mois ou trimestre ?",
+            "accordianperegraph": "Oui, nous proposons un service d'abonnement pour recevoir des chaussettes en fil d'Écosse chaque mois ou trimestre. Vous pouvez vous abonner en ligne et choisir la fréquence de livraison qui vous convient le mieux."
+          }
+        },
+        "569b0e8b-3ff9-4c26-a286-9169170a42b7": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Comment fonctionne l'abonnement pour recevoir des chaussettes chaque mois ou trimestre",
+            "accordianperegraph": "Notre abonnement vous permet de recevoir automatiquement des chaussettes en fil d'Écosse à la fréquence que vous avez choisie (chaque mois ou trimestre). Les abonnements commencent le 5 du mois suivant et sont automatiquement renouvelés jusqu'à ce que vous décidiez de les annuler."
+          }
+        },
+        "f5ec8a0c-f1e5-4f7b-8cb6-ba0ef94525a7": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Puis-je annuler mon abonnement à tout moment ?",
+            "accordianperegraph": "Oui, vous pouvez annuler votre abonnement à tout moment en vous connectant à votre compte en ligne et en gérant vos abonnements. Aucun frais d'annulation ne sera appliqué."
+          }
+        },
+        "cc8e301e-048b-46b6-b495-14a81ec2d03f": {
+          "type": "image",
+          "settings": {
+            "accordiatitle": "Est-ce que les abonnements bénéficient de la livraison gratuite ?",
+            "accordianperegraph": "Oui, les abonnements bénéficient également de la livraison gratuite."
+          }
+        }
+      },
+      "block_order": [
+        "32b85ae5-9067-4407-b03f-698407cf85ad",
+        "569b0e8b-3ff9-4c26-a286-9169170a42b7",
+        "f5ec8a0c-f1e5-4f7b-8cb6-ba0ef94525a7",
+        "cc8e301e-048b-46b6-b495-14a81ec2d03f"
+      ],
+      "settings": {
+        "accordian1": "Nos abonnements"
       }
     }
   },
   "order": [
     "main",
-    "19459029-7b6a-4d1f-849d-97a52015ea1d"
+    "eb350474-3f75-4877-a960-f30fe2f67a3a",
+    "19459029-7b6a-4d1f-849d-97a52015ea1d",
+    "cd24894c-c882-4c03-b8fa-f248efdc873c",
+    "bec10134-e491-48e5-a809-eaf3eba1786e"
   ]
 }
