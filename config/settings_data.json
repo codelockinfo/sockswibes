@@ -127,8 +127,10 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_header_image": "shopify:\/\/shop_images\/la-chaussetterie-banniere.jpg",
-    "checkout_body_background_color": "#f0f0f0",
+    "checkout_logo_image": "shopify:\/\/shop_images\/la-chaussetterie-logo-noir.png",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#344958",
     "checkout_accent_color": "#344958",
     "sections": {
       "main-password-header": {
