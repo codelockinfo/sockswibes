@@ -61,7 +61,7 @@
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           <a
             href="{{ section.settings.video_url }}"
-            class="video-section__poster media media--transparent{% if poster == null %} video-section__placeholder{% endif %}"
+            class="video-section__poster media media--transparent{% if poster == null %} video-section__placeholder{% endif %} bbb"
           >
             {%- if poster != null -%}
               {{ poster
