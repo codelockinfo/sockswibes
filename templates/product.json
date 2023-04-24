@@ -251,6 +251,7 @@
     },
     "7ecac0b3-f7e9-4887-becb-2c446c5e3c31": {
       "type": "video_autplay",
+      "disabled": true,
       "settings": {
         "txt1": "",
         "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV"
