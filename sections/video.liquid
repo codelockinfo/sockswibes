@@ -61,7 +61,7 @@
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           <a
             href="{{ section.settings.video_url }}"
-            class="video-section__poster media media--transparent{% if poster == null %} video-section__placeholder{% endif %} bbb"
+            class="video-section__poster media media--transparent{% if poster == null %} video-section__placeholder{% endif %}"
           >
             {%- if poster != null -%}
               {{ poster
@@ -92,7 +92,7 @@
     >
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
-        class="video-section__poster media deferred-media__poster media--landscape"
+        class="video-section__poster media deferred-media__poster media--landscape bbb"
         type="button"
         aria-label="{{ alt }}"
       >
