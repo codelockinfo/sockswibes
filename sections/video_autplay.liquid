@@ -1,12 +1,24 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+   "name": "Video Autoplay",
+   "settings": [
+        {
+        "id": "txt1",
+       "type": "text",
+       "label": "Heading"
+      },
+        {
+      "type": "video",
+      "id": "video",
+      "label": "Select Video"
+    }
+   ],
+   "presets": [
+   {
+     "category": "Text",
+     "name": "Video Autoplay"
+   }
+ ]
+
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
