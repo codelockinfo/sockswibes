@@ -109,25 +109,6 @@
         </span> -->
       </button>
       <template>
-
-          {{ section.settings.video
-            | video_tag:
-              image_size: "1100x",
-              autoplay: true,
-              loop: section.settings.enable_video_looping,
-              controls: true,
-              muted: false
-          }}
-
-      </template>
-    </deferred-media>
-  </div>
-</div>
-
-
-
-<!--       tepmplate video section remove karyu che -->
-<!--             <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid
             assign loop = ''
@@ -162,7 +143,11 @@
               muted: false
           }}
         {%- endif -%}
-      </template> -->
+      </template>
+    </deferred-media>
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "t:sections.video.name",
@@ -310,9 +295,3 @@
   ]
 }
 {% endschema %}
-<script>
-$(document).ready(function() {
-    // $(".bbb").click();
-    // $(".videosec_ video").click();
-});
-</script>
