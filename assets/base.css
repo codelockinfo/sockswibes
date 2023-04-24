@@ -4066,3 +4066,7 @@ form.needsclick {
 
 
 /*cls013 end  */
+
+.btn_buy_new > a{
+      border: 1px solid black;
+}
