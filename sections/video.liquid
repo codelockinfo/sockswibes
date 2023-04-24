@@ -109,7 +109,7 @@
         </span> -->
       </button>
       <template>
-        {%- if section.settings.video == null and section.settings.video_url != null -%}
+<!--         {%- if section.settings.video == null and section.settings.video_url != null -%} -->
           {%- liquid
             assign loop = ''
             if section.settings.enable_video_looping
@@ -143,7 +143,7 @@
               muted: false
           }}
         {%- endif -%}
-      </template>
+<!--       </template> -->
     </deferred-media>
   </div>
 </div>
