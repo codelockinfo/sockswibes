@@ -84,7 +84,7 @@
       </div>
     </noscript>
     <deferred-media
-      class="video-section__media deferred-media no-js-hidden gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}"
+      class="video-section__media deferred-media no-js-hidden gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %} videosec_"
       data-media-id="{{ video_id }}"
       {% if poster != null %}
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
@@ -297,6 +297,6 @@
 {% endschema %}
 <script>
 $(document).ready(function() {
-    $(".bbb > img").click();
+    $(".videosec_ video").click();
 });
 </script>
