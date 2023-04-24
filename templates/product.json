@@ -248,21 +248,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "e2e11731-a758-4d3a-94dd-495e0afb4f90": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -271,7 +256,6 @@
     "df79ddcb-2d29-421c-8e7d-47c2d1223c5b",
     "6ca6d26b-e477-4822-b79d-a02402ada042",
     "28835b66-92b7-48be-91d8-298e3044e36a",
-    "related-products",
-    "e2e11731-a758-4d3a-94dd-495e0afb4f90"
+    "related-products"
   ]
 }
