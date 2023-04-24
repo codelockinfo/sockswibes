@@ -4067,6 +4067,6 @@ form.needsclick {
 
 /*cls013 end  */
 
-.btn_buy_new{
-/*     border: 1px solid black !important; */
+.parent_add_to_card_new .btn_buy_new{
+    border: 1px solid black;
 }
