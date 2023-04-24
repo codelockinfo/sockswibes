@@ -205,7 +205,7 @@
           </div>
         </div>
         {%- if show_quick_add -%}
-          <div class="quick-add no-js-hidden">
+          <div class="quick-add no-js-hidden parent_add_to_card_new">
             {%- liquid
               assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id
               assign qty_rules = false
