@@ -109,7 +109,7 @@
         </span> -->
       </button>
       <template>
-<!--         {%- if section.settings.video == null and section.settings.video_url != null -%} -->
+        {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid
             assign loop = ''
             if section.settings.enable_video_looping
@@ -134,16 +134,9 @@
             ></iframe>
           {%- endif -%}
         {%- else -%}
-          {{ section.settings.video
-            | video_tag:
-              image_size: "1100x",
-              autoplay: true,
-              loop: section.settings.enable_video_looping,
-              controls: true,
-              muted: false
-          }}
+ 
         {%- endif -%}
-<!--       </template> -->
+      </template>
     </deferred-media>
   </div>
 </div>
