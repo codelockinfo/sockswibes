@@ -1,5 +1,6 @@
 
 <div class="vdy_auto">
+  <h3>{{ section.settings.para }}</h3>
    <video controls autoplay muted loop>
    <source src="{{ section.settings.video_url }}" type="video/mp4">
    <p>Sorry, your broswer doesn't support embedded videos.</p>
@@ -20,8 +21,8 @@
    "name": "Video Autoplay",
    "settings": [
         {
-        "id": "txt1",
-       "type": "text",
+        "id": "para",
+       "type": "richtext",
        "label": "Heading"
       },
         {
