@@ -151,6 +151,7 @@
     },
     "df79ddcb-2d29-421c-8e7d-47c2d1223c5b": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "La qualité et la douceur du fil d'Écosse",
         "heading_size": "h2",
@@ -162,6 +163,14 @@
         "color_scheme": "background-1",
         "padding_top": 16,
         "padding_bottom": 8
+      }
+    },
+    "b3491a7c-de16-4022-a248-7dd0997a6ccd": {
+      "type": "video_autplay",
+      "settings": {
+        "para": "<p>La qualité et la douceur du fil d'Écosse<\/p>",
+        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/274e03d5f4084dae91298b889f270c58.mp4"
       }
     },
     "6ca6d26b-e477-4822-b79d-a02402ada042": {
@@ -248,32 +257,15 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "7ecac0b3-f7e9-4887-becb-2c446c5e3c31": {
-      "type": "video_autplay",
-      "disabled": true,
-      "settings": {
-        "txt1": "",
-        "video_url": ""
-      }
-    },
-    "b3491a7c-de16-4022-a248-7dd0997a6ccd": {
-      "type": "video_autplay",
-      "settings": {
-        "txt1": "",
-        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/274e03d5f4084dae91298b889f270c58.mp4"
-      }
     }
   },
   "order": [
     "main",
     "1681449340980d1147",
     "df79ddcb-2d29-421c-8e7d-47c2d1223c5b",
+    "b3491a7c-de16-4022-a248-7dd0997a6ccd",
     "6ca6d26b-e477-4822-b79d-a02402ada042",
     "28835b66-92b7-48be-91d8-298e3044e36a",
-    "related-products",
-    "7ecac0b3-f7e9-4887-becb-2c446c5e3c31",
-    "b3491a7c-de16-4022-a248-7dd0997a6ccd"
+    "related-products"
   ]
 }
