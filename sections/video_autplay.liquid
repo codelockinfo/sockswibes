@@ -4,7 +4,7 @@
 <source src="myvideo.ogg" type="video/ogg"/></video></pre>
 </div> {% endcomment %}
 <video controls="controls" style="max-width: 100%; height: auto;">
-  <source src="{{ section.settings.video }}" type="video/mp4" />
+  <source src="{{ section.settings.video_url }}" type="video/mp4" />
 Your browser does not support our video.
 </video>
 {% schema %}
@@ -20,6 +20,12 @@ Your browser does not support our video.
       "type": "video",
       "id": "video",
       "label": "Select Video"
+    },
+     {
+      "type": "video_url",
+      "id": "video_url",
+        "accept": ["youtube", "vimeo"],
+      "label": "el"
     }
    ],
    "presets": [
