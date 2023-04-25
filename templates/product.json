@@ -253,14 +253,16 @@
       "type": "video_autplay",
       "disabled": true,
       "settings": {
-        "txt1": ""
+        "txt1": "",
+        "video_url": ""
       }
     },
     "b3491a7c-de16-4022-a248-7dd0997a6ccd": {
       "type": "video_autplay",
       "settings": {
         "txt1": "",
-        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV"
+        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0744\/0138\/2673\/files\/metro.gif?v=1682185687"
       }
     }
   },
