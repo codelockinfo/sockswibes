@@ -3,17 +3,20 @@
 <source src="{{ section.settings.video }}" type="video/mp4" />
 <source src="myvideo.ogg" type="video/ogg"/></video></pre>
 </div> {% endcomment %}
-<div class="vdy">
+<div class="vdy_auto">
    <video controls autoplay muted>
             <source src="https://cdn.shopify.com/videos/c/vp/74a166a4dc054398a9ad38ff8405d7ab/74a166a4dc054398a9ad38ff8405d7ab.HD-1080p-7.2Mbps-14053164.mp4" type="video/mp4">
 <p>Sorry, your broswer doesn't support embedded videos.</p>
  </video>
 </div>
  <style>
-   .vdy{
+   .vdy_auto{
     max-width: var(--page-width);
     margin: 0 auto;
     padding: 0 5rem;
+   }
+   .vdy_auto > video{
+     width:100%;
    }
  </style>
 {% schema %}
