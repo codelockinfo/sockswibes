@@ -151,6 +151,7 @@
     },
     "df79ddcb-2d29-421c-8e7d-47c2d1223c5b": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "La qualité et la douceur du fil d'Écosse",
         "heading_size": "h2",
