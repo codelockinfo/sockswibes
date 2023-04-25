@@ -256,6 +256,13 @@
         "txt1": "",
         "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV"
       }
+    },
+    "b3491a7c-de16-4022-a248-7dd0997a6ccd": {
+      "type": "video_autplay",
+      "settings": {
+        "txt1": "",
+        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV"
+      }
     }
   },
   "order": [
@@ -265,6 +272,7 @@
     "6ca6d26b-e477-4822-b79d-a02402ada042",
     "28835b66-92b7-48be-91d8-298e3044e36a",
     "related-products",
-    "7ecac0b3-f7e9-4887-becb-2c446c5e3c31"
+    "7ecac0b3-f7e9-4887-becb-2c446c5e3c31",
+    "b3491a7c-de16-4022-a248-7dd0997a6ccd"
   ]
 }
