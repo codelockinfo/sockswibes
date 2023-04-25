@@ -321,8 +321,7 @@
       "type": "video_autplay",
       "settings": {
         "txt1": "",
-        "video": "shopify:\/\/files\/videos\/0befa62ab793417780e00d990a8ecd80.mp4",
-        "video_url": ""
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f5b0babf18d4064a79e2bc961493766.mp4"
       }
     }
   },
