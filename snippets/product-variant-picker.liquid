@@ -101,17 +101,13 @@
       {% assign paragraphs = Value11 | split: '","' %}
 
       {% for paragraph in paragraphs %}
-        <option>
-          <div class="clstopborder acc__card">
-            {% assign colorValue = paragraph | split: ':' %}
+        {% assign colorValue = paragraph | split: ':' %}
 
-            {% for colorlabel in colorValue %}
-              {% if forloop.index == 1 %}
-                {{ colorlabel | strip }}
-              {% endif %}
-            {% endfor %}
-          </div>
-        </option>
+        {% for colorlabel in colorValue %}
+          {% if forloop.index == 1 %}
+            <option>{{ colorlabel | strip }}</option>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
     {% endif %}
   </select>
