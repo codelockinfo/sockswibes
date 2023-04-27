@@ -63,7 +63,7 @@
           </div>
         {%- endfor -%}
 
-      {% else %}
+      {% elsif option.name == 'Color' %}
         {% for i in (1..5) %}
           {%- for option in product.options_with_values -%}
             <div class="product-form__input product-form__input--dropdown">
