@@ -23,8 +23,8 @@
     $(document).ready(function() {
     $(".set > a").on("click", function(e) {
         e.preventDefault();
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
+      if ($(this).find('.blockstar').hasClass("active")) {
+        $(this).find('.blockstar').removeClass("active");
         $(this)
           .siblings(".clscontent")
           .slideUp(200);
