@@ -99,8 +99,9 @@
     {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
     {% if Value11 != blank %}
       {% assign paragraphs = Value11 | split: '","' %}
-      <option>
-        {% for paragraph in paragraphs %}
+
+      {% for paragraph in paragraphs %}
+        <option>
           <div class="clstopborder acc__card">
             {% assign colorValue = paragraph | split: ':' %}
 
@@ -110,8 +111,8 @@
               {% endif %}
             {% endfor %}
           </div>
-        {% endfor %}
-      </option>
+        </option>
+      {% endfor %}
     {% endif %}
   </select>
 </div>
