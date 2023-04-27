@@ -31,7 +31,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -169,7 +169,6 @@
       "type": "video_autplay",
       "settings": {
         "para": "<h2>LA QUALITÉ ET LA DOUCEUR DU FIL D'ÉCOSSE<\/h2>",
-        "video": "shopify:\/\/files\/videos\/IMG_3765 3.MOV",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/274e03d5f4084dae91298b889f270c58.mp4"
       }
     },
