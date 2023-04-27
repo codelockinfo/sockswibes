@@ -92,6 +92,11 @@
   {%- endif -%}
 {%- endunless -%}
 
+<!-- variantmetafild -->
+<div class="variantmeta">
+  <h2>{{ product.metafields.custom.color1 }}</h2>
+</div>
+
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
   <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
     <label class="form__label" for="Variants-{{ section.id }}">
