@@ -94,7 +94,13 @@
 
 <!-- variantmetafild -->
 <div class="variantmeta">
-  <h2>{{ product.metafields.custom.color1 }}</h2>
+  <h2>{{  }}</h2>
+</div>
+
+<div class="reparationtable acc">
+  {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
+  {% if Value11 != blank %}
+  {% endif %}
 </div>
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
