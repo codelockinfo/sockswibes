@@ -99,8 +99,7 @@
 
 <div class="reparationtable acc">
   {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
-  {% if Value11 != blank %}
-  {% endif %}
+  {{ Value11 }}
 </div>
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
