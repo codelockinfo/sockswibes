@@ -93,13 +93,24 @@
 {%- endunless -%}
 
 <!-- variantmetafild -->
-<div class="variantmeta">
-  <h2>{{  }}</h2>
-</div>
 
 <div class="reparationtable acc">
   {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
-  {{ Value11 }}
+  {% if Value11 != blank %}
+    {% assign paragraphs = Value11 | split: '","' %}
+    {% for paragraph in paragraphs %}
+      <div class="clstopborder acc__card">
+        {% assign colorValue = paragraph | split: ':' %}
+        {% for colorlabel in colorValue %}
+          {% if forloop.index == 1 %}
+            <h3 class="faqtitle acc__title">{{ colorlabel | strip }}</h3>
+          {% else %}
+            <p class="faqtitlediscript acc__panel">{{ colorlabel | strip }}</p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  {% endif %}
 </div>
 
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
