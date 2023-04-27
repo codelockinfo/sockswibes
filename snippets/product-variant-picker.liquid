@@ -73,7 +73,7 @@
                   <select
                     id="Option-{{ section.id }}-{{ forloop.index0 }}"
                     class="select__select"
-                    name="options[{{ option.name | escape }}]"
+                    name="options[{{ option.name | escape }}{{ i }}]"
                     form="{{ product_form_id }}"
                   >
                     {% render 'product-variant-options', product: product, option: option, block: block %}
