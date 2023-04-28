@@ -46,25 +46,27 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
-        <p class="line-item-property__field">
-          <label>Color 1</label><br>
-          <select id="your-name" name="properties[Color 1]">
-            {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
-            {% if Value11 != blank %}
-              {% assign paragraphs = Value11 | split: '","' %}
+        {% if product.metafields.custom.color1 != blank %}
+          <p class="line-item-property__field">
+            <label>Color 1</label><br>
+            <select id="your-name" name="properties[Color 1]">
+              {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
+              {% if Value11 != blank %}
+                {% assign paragraphs = Value11 | split: '","' %}
 
-              {% for paragraph in paragraphs %}
-                {% assign colorValue = paragraph | split: ':' %}
+                {% for paragraph in paragraphs %}
+                  {% assign colorValue = paragraph | split: ':' %}
 
-                {% for colorlabel in colorValue %}
-                  {% if forloop.index == 1 %}
-                    <option value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
-                  {% endif %}
+                  {% for colorlabel in colorValue %}
+                    {% if forloop.index == 1 %}
+                      <option value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
-            {% endif %}
-          </select>
-        </p>
+              {% endif %}
+            </select>
+          </p>
+        {% endif %}
         {% if product.metafields.custom.color2 != balnk %}
           <p class="line-item-property__field">
             <label>Color 2</label><br>
