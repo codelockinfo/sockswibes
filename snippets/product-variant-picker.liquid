@@ -43,48 +43,24 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        {% if option.name != 'Color' %}
-          <div class="product-form__input product-form__input--dropdown">
-            <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-              {{ option.name -}}
-            </label>
-            <div class="select">
-              <select
-                id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                class="select__select"
-                name="options[{{ option.name | escape }}]"
-                form="{{ product_form_id }}"
-              >
-                {% render 'product-variant-options', product: product, option: option, block: block %}
-              </select>
-              {% render 'icon-caret' %}
-            </div>
+        <div class="product-form__input product-form__input--dropdown">
+          <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+            {{ option.name }}
+          </label>
+          <div class="select">
+            <select
+              id="Option-{{ section.id }}-{{ forloop.index0 }}"
+              class="select__select"
+              name="options[{{ option.name | escape }}]"
+              form="{{ product_form_id }}"
+            >
+              {% render 'product-variant-options', product: product, option: option, block: block %}
+            </select>
+            {% render 'icon-caret' %}
           </div>
-
-        {% elsif option.name == 'Color' %}
-          {% for i in (1..5) %}
-            {%- for option in product.options_with_values -%}
-              <div class="product-form__input product-form__input--dropdown">
-                <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                  {{ option.name -}}
-                  {{ i }}
-                </label>
-                <div class="select">
-                  <select
-                    id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                    class="select__select"
-                    name="options[{{ option.name | escape }}{{ i }}]"
-                    form="{{ product_form_id }}"
-                  >
-                    {% render 'product-variant-options', product: product, option: option, block: block %}
-                  </select>
-                  {% render 'icon-caret' %}
-                </div>
-              </div>
-            {%- endfor -%}
-          {% endfor %}
-        {% endif %}
+        </div>
       {%- endfor -%}
+
       <script type="application/json">
         {{ product.variants | json }}
       </script>
