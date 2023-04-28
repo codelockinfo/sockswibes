@@ -46,6 +46,14 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+        <p class="line-item-property__field">
+          <label>Your name</label><br>
+          <select id="your-name" name="properties[Hello]">
+            <option value="Hello">Hello</option>
+            <option value="Hello2">Hello2</option>
+            <option value="Hello3">Hello3</option>
+          </select>
+        </p>
         <div class="reparationtable acc">
           <select for="custom-color">
             {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
