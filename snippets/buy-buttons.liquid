@@ -46,6 +46,24 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+        <div class="reparationtable acc">
+          <select>
+            {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
+            {% if Value11 != blank %}
+              {% assign paragraphs = Value11 | split: '","' %}
+
+              {% for paragraph in paragraphs %}
+                {% assign colorValue = paragraph | split: ':' %}
+
+                {% for colorlabel in colorValue %}
+                  {% if forloop.index == 1 %}
+                    <option name="properties[colors]" value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          </select>
+        </div>
         <p class="some-class-you-decide">
           <label for="custom-engraving">Custom Engraving</label>
           <input id="custom-engraving" type="text" name="properties[Custom Engraving]">
