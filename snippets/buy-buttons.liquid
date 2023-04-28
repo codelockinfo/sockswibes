@@ -100,6 +100,33 @@
             </div>
           </p>
         {% endif %}
+         {% if product.metafields.custom.color3 != balnk %}
+          <p class="line-item-property__field">
+            <div class="colororientflex">
+              <div class="colororientflex1">
+                <label class="colortitle">Color 3</label>
+              </div>
+              <div class="colororientflex12">
+                <select id="your-name" name="properties[Color 3]">
+                  {% assign Value3 = product.metafields.custom.color3 | remove: '["' | remove: '"]' %}
+                  {% if Value3 != blank %}
+                    {% assign paragraphs3 = Value3 | split: '","' %}
+
+                    {% for paragraph3 in paragraphs3 %}
+                      {% assign colorValue3 = paragraph3 | split: ':' %}
+
+                      {% for colorlabel3 in colorValue3 %}
+                        {% if forloop.index == 1 %}
+                          <option value="{{ colorlabel3 | strip }}">{{ colorlabel3 | strip }}</option>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {% endif %}
+                </select>
+              </div>
+            </div>
+          </p>
+        {% endif %}
         <input
           type="hidden"
           name="id"
