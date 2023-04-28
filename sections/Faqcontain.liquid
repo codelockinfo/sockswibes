@@ -23,8 +23,8 @@
     $(document).ready(function() {
     $(".set > a").on("click", function(e) {
         e.preventDefault();
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
+      if ($(this).closest('.blockstar').find('.set a').hasClass("active")) {
+        $(this).closest('.blockstar').find('.set a').removeClass("active");
         $(this)
           .siblings(".clscontent")
           .slideUp(200);
@@ -39,8 +39,8 @@
           .find("i")
           .removeClass("fa-plus")
           .addClass("fa-minus");
-        $(".set > a").removeClass("active");
-        $(this).addClass("active");
+        $(".set > a").closest('.blockstar').find('.set a').removeClass("active");
+        $(this).closest('.blockstar').find('.set a').addClass("active");
         $(".clscontent").slideUp(200);
         $(this)
           .siblings(".clscontent")

@@ -74,7 +74,6 @@
     },
     "cd24894c-c882-4c03-b8fa-f248efdc873c": {
       "type": "Faqcontain",
-      "disabled": true,
       "blocks": {
         "6defdde3-2555-4c9e-87dd-d810dc2f864f": {
           "type": "image",
