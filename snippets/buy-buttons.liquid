@@ -47,7 +47,7 @@
         data-type: 'add-to-cart-form'
       -%}
         <div class="reparationtable acc">
-          <select>
+          <select for="custom-color">
             {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
             {% if Value11 != blank %}
               {% assign paragraphs = Value11 | split: '","' %}
@@ -66,7 +66,7 @@
         </div>
         <p class="some-class-you-decide">
           <label for="custom-engraving">Custom Engraving</label>
-          <input id="custom-engraving" type="text" name="properties[Custom Engraving]">
+          <input type="text" name="properties[Custom Engraving]">
         </p>
         <input
           type="hidden"
