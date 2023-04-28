@@ -49,7 +49,7 @@
         {% if product.metafields.custom.color1 != blank %}
           <p class="line-item-property__field">
             <label>Color 1</label><br>
-            <select id="your-name" name="properties[Color 1]">
+            <select id="your-name" name="properties[Color 1]" class="select__select">
               {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
               {% if Value11 != blank %}
                 {% assign paragraphs = Value11 | split: '","' %}
@@ -70,7 +70,7 @@
         {% if product.metafields.custom.color2 != balnk %}
           <p class="line-item-property__field">
             <label>Color 2</label><br>
-            <select id="your-name" name="properties[Color 2]">
+            <select id="your-name" name="properties[Color 2]" class="select__select">
               {% assign Value2 = product.metafields.custom.color2 | remove: '["' | remove: '"]' %}
               {% if Value2 != blank %}
                 {% assign paragraphs2 = Value2 | split: '","' %}
