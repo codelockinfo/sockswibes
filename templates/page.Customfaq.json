@@ -108,7 +108,6 @@
     },
     "bec10134-e491-48e5-a809-eaf3eba1786e": {
       "type": "Faqcontain",
-      "disabled": true,
       "blocks": {
         "32b85ae5-9067-4407-b03f-698407cf85ad": {
           "type": "image",
@@ -151,7 +150,6 @@
     },
     "4145b8b1-6e84-4db0-bbf4-b23d9cebfef6": {
       "type": "Faqcontain",
-      "disabled": true,
       "blocks": {
         "f2320e16-0513-4599-879a-9b67511631a6": {
           "type": "image",
