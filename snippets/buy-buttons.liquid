@@ -65,26 +65,27 @@
             {% endif %}
           </select>
         </p>
-        {{ product.metafields.custom.color2 }}???
-        <p class="line-item-property__field">
-          <label>Color 2</label><br>
-          <select id="your-name" name="properties[Color 2]">
-            {% assign Value2 = product.metafields.custom.color2 | remove: '["' | remove: '"]' %}
-            {% if Value2 != blank %}
-              {% assign paragraphs2 = Value2 | split: '","' %}
+        {% if product.metafields.custom.color2 != balnk %}
+          <p class="line-item-property__field">
+            <label>Color 2</label><br>
+            <select id="your-name" name="properties[Color 2]">
+              {% assign Value2 = product.metafields.custom.color2 | remove: '["' | remove: '"]' %}
+              {% if Value2 != blank %}
+                {% assign paragraphs2 = Value2 | split: '","' %}
 
-              {% for paragraph2 in paragraphs2 %}
-                {% assign colorValue2 = paragraph2 | split: ':' %}
+                {% for paragraph2 in paragraphs2 %}
+                  {% assign colorValue2 = paragraph2 | split: ':' %}
 
-                {% for colorlabel2 in colorValue2 %}
-                  {% if forloop.index == 1 %}
-                    <option value="{{ colorlabel2 | strip }}">{{ colorlabel2 | strip }}</option>
-                  {% endif %}
+                  {% for colorlabel2 in colorValue2 %}
+                    {% if forloop.index == 1 %}
+                      <option value="{{ colorlabel2 | strip }}">{{ colorlabel2 | strip }}</option>
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
-            {% endif %}
-          </select>
-        </p>
+              {% endif %}
+            </select>
+          </p>
+        {% endif %}
         <input
           type="hidden"
           name="id"
