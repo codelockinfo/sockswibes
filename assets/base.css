@@ -4086,7 +4086,7 @@ form.needsclick {
     flex: 0 0 80%;
     max-width: 80%;
 }
-.colororientflex12{
+.colororientflex12 select{
       width: 100%;
     padding: 7px 4px;
 }
