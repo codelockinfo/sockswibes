@@ -22,8 +22,8 @@
 <script>
     $(document).ready(function() {
     $(".set > a").on("click", function(e) {
-      console.log("HIIII");
         e.preventDefault();
+      console.log("HIIII");
       if ($(this).closest('.set').find('a').hasClass("active")) {
         $(this).closest('.set').find('a').removeClass("active");
         $(this)
