@@ -69,9 +69,10 @@
 {%- endunless -%}
 
 <!-- variantmetafild -->
-<div>
-  <input name="properties[input]" value="">
-</div>
+<p class="some-class-you-decide">
+  <label for="custom-engraving">Custom Engraving</label>
+  <input id="custom-engraving" type="text" name="properties[Custom Engraving]">
+</p>
 <div class="reparationtable acc">
   <select>
     {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
