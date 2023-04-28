@@ -4083,6 +4083,10 @@ form.needsclick {
     max-width: 20%;
 }
 .colororientflex12 {
-    flex: 0 0 20%;
-    max-width: 20%;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.colororientflex12{
+      width: 100%;
+    padding: 7px 4px;
 }
