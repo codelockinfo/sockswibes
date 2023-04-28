@@ -48,23 +48,29 @@
       -%}
         {% if product.metafields.custom.color1 != blank %}
           <p class="line-item-property__field">
-            <label>Color 1</label><br>
-            <select id="your-name" name="properties[Color 1]">
-              {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
-              {% if Value11 != blank %}
-                {% assign paragraphs = Value11 | split: '","' %}
+            <div class="colororientflex">
+              <div class="colororientflex1">
+                <label class="colortitle">Color 1</label>
+              </div>
+              <div class="colororientflex12">
+                <select id="your-name" name="properties[Color 1]" class="subcolor">
+                  {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
+                  {% if Value11 != blank %}
+                    {% assign paragraphs = Value11 | split: '","' %}
 
-                {% for paragraph in paragraphs %}
-                  {% assign colorValue = paragraph | split: ':' %}
+                    {% for paragraph in paragraphs %}
+                      {% assign colorValue = paragraph | split: ':' %}
 
-                  {% for colorlabel in colorValue %}
-                    {% if forloop.index == 1 %}
-                      <option value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
-                    {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              {% endif %}
-            </select>
+                      {% for colorlabel in colorValue %}
+                        {% if forloop.index == 1 %}
+                          <option value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
+                  {% endif %}
+                </select>
+              </div>
+            </div>
           </p>
         {% endif %}
         {% if product.metafields.custom.color2 != balnk %}
