@@ -4071,3 +4071,18 @@ form.needsclick {
     border: 1px solid black;
    color: black;
 }
+
+
+/*cls07 end  */
+.colororientflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.colororientflex1 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.colororientflex2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
