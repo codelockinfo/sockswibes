@@ -68,26 +68,6 @@
   {%- endif -%}
 {%- endunless -%}
 
-<!-- variantmetafild -->
-<div class="reparationtable acc">
-  <select>
-    {% assign Value11 = product.metafields.custom.color1 | remove: '["' | remove: '"]' %}
-    {% if Value11 != blank %}
-      {% assign paragraphs = Value11 | split: '","' %}
-
-      {% for paragraph in paragraphs %}
-        {% assign colorValue = paragraph | split: ':' %}
-
-        {% for colorlabel in colorValue %}
-          {% if forloop.index == 1 %}
-            <option name="properties[colors]" value="{{ colorlabel | strip }}">{{ colorlabel | strip }}</option>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endif %}
-  </select>
-</div>
-
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
   <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
     <label class="form__label" for="Variants-{{ section.id }}">
