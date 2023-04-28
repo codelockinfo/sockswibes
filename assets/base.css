@@ -4079,12 +4079,12 @@ form.needsclick {
     flex-wrap: wrap;
 }
 .colororientflex1 {
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 27%;
+    max-width: 27%;
 }
 .colororientflex12 {
-    flex: 0 0 69%;
-    max-width: 69%;
+    flex: 0 0 70%;
+    max-width: 70%;
 }
 .colororientflex12 select{
       width: 100%;
