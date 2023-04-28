@@ -23,10 +23,6 @@
         assign show_dynamic_checkout = true
       endif
     -%}
-    <p class="some-class-you-decide">
-      <label for="custom-engraving">Custom Engraving</label>
-      <input id="custom-engraving" type="text" name="properties[Custom Engraving]">
-    </p>
     <product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}">
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         <svg
@@ -50,6 +46,10 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+        <p class="some-class-you-decide">
+          <label for="custom-engraving">Custom Engraving</label>
+          <input id="custom-engraving" type="text" name="properties[Custom Engraving]">
+        </p>
         <input
           type="hidden"
           name="id"
