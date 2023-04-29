@@ -3759,6 +3759,11 @@ h1.title.title--primary.inline-richtext{
       font-weight: bold;
     font-family: 'Poppins';
 }
+.clstarget p{
+      font-weight: bold;
+    font-family: 'Poppins';
+      font-size: 14px;
+}
 
 
 
