@@ -190,8 +190,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "font_size2": 12,
-            "text_style": "body"
+            "font_size2": 15,
+            "text_style": "subtitle"
           }
         },
         "template--18544998449425__2786dc0b-32aa-45d0-88e5-d88e1254a65f-1682753931c0ee0b37-2": {
