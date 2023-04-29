@@ -182,7 +182,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "font_size1": 16,
+            "font_size1": 23,
             "heading_size": "h1"
           }
         },
@@ -190,7 +190,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "font_size2": 16,
+            "font_size2": 12,
             "text_style": "body"
           }
         },
