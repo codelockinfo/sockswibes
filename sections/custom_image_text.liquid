@@ -1,12 +1,99 @@
+<div class="Main-cls">
+   <div class="main-heading">
+      <h3 class="section-title"> <span class="mr__10 ml__10"> <b>{{ section.settings.heading }} </b></span> </h3>
+   </div>
+   <div class="main-section">
+      <div class="main-image">
+         <img src="{{ section.settings.image1 | img_url:'master' }}">
+      </div>
+      <div class="main-image">
+         <img src="{{ section.settings.image2 | img_url:'master' }}">
+      </div>
+   </div>
+</div>
+
 {% schema %}
+{
+"name": "Custom Image Text",
+"settings": [
+    {
+      "id" : "heading",
+      "type" : "text",
+      "label" : "Heading"
+    },
+    {
+      "id" : "image1",
+      "type" : "image_picker",
+      "label" : "Image1"
+    }
+],
+"blocks":[
   {
-    "name": "Section name",
-    "settings": []
+    "type" : "block",
+    "name" : "block",
+    "settings" : [
+      {
+        "id" : "subtitle",
+        "type" : "text",
+        "label" : "Sub Title"
+      },
+      {
+        "type": "range",
+        "id": "font_size3",
+        "label": "Font Size",
+        "default": 16,
+        "min": 8,
+        "max": 50,
+        "step": 1
+      }
+    ]
   }
+],  
+"presets" : [
+  {
+    "name" : "Custom Image Text"
+  }
+]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<style>
 
-{% javascript %}
-{% endjavascript %}
+  .Main-cls{
+    max-width: 100%;
+    width: 100%;
+  }
+  .main-section{
+    display: flex;
+    width: 100%;
+    margin-top:2%;
+  }
+  .main-image{
+    width:50%;
+  }
+  .main-heading{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+  }
+   .main-image img{
+    width:100%;
+  }
+  @media(max-width:600px){
+    .Main-cls div.main-section:nth-child(1) {
+      order: 2;
+    }
+    .main-section{
+      display:block;
+    }
+    .main-image{
+      width:100%;
+    }
+    .main-heading{
+      width:100%;
+      padding:0;
+    }
+  }
+
+</style>
