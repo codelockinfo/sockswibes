@@ -238,6 +238,54 @@
         "show_text_below": true
       }
     },
+    "0c505836-cc57-4376-9313-241a04c20949": {
+      "type": "custom_image_text",
+      "blocks": {
+        "7854911e-9065-4191-98d0-c0202c30cf08": {
+          "type": "block",
+          "settings": {
+            "subtitle": "FIL D'ECOSSE HAUTE QUALITE",
+            "font_size3": 16
+          }
+        },
+        "cd1f44a6-9865-4258-aecc-8f23db007d00": {
+          "type": "block",
+          "settings": {
+            "subtitle": "RAFINÉE ET INTEMPORELLE",
+            "font_size3": 16
+          }
+        },
+        "cef3b755-2e75-4620-b8ea-14d779f82cc1": {
+          "type": "block",
+          "settings": {
+            "subtitle": "DURABILITÉ ET RESISTANCE",
+            "font_size3": 16
+          }
+        },
+        "1e24e03e-e26f-4be2-8a31-c49cc555df1d": {
+          "type": "block",
+          "settings": {
+            "subtitle": "CHAUSSETTE RESPIRANTE",
+            "font_size3": 16
+          }
+        }
+      },
+      "block_order": [
+        "7854911e-9065-4191-98d0-c0202c30cf08",
+        "cd1f44a6-9865-4258-aecc-8f23db007d00",
+        "cef3b755-2e75-4620-b8ea-14d779f82cc1",
+        "1e24e03e-e26f-4be2-8a31-c49cc555df1d"
+      ],
+      "settings": {
+        "lemotitle": "FAITES DE CHAQUE PAS UNE EXPÉRIENCE INOUBLIABLE !",
+        "lenosub": "Tellement confortable que vous voudriez dormir avec",
+        "font_size": 30,
+        "font_size2": 18,
+        "image1": "shopify:\/\/shop_images\/yellow-socks.gif",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "18c70db3-b7d4-4670-a7b7-e7040630bae3": {
       "type": "popularsections",
       "blocks": {
@@ -363,52 +411,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "0c505836-cc57-4376-9313-241a04c20949": {
-      "type": "custom_image_text",
-      "blocks": {
-        "7854911e-9065-4191-98d0-c0202c30cf08": {
-          "type": "block",
-          "settings": {
-            "subtitle": "FIL D'ECOSSE HAUTE QUALITE",
-            "font_size3": 16
-          }
-        },
-        "cd1f44a6-9865-4258-aecc-8f23db007d00": {
-          "type": "block",
-          "settings": {
-            "subtitle": "RAFINÉE ET INTEMPORELLE",
-            "font_size3": 16
-          }
-        },
-        "cef3b755-2e75-4620-b8ea-14d779f82cc1": {
-          "type": "block",
-          "settings": {
-            "subtitle": "DURABILITÉ ET RESISTANCE",
-            "font_size3": 16
-          }
-        },
-        "1e24e03e-e26f-4be2-8a31-c49cc555df1d": {
-          "type": "block",
-          "settings": {
-            "subtitle": "CHAUSSETTE RESPIRANTE",
-            "font_size3": 16
-          }
-        }
-      },
-      "block_order": [
-        "7854911e-9065-4191-98d0-c0202c30cf08",
-        "cd1f44a6-9865-4258-aecc-8f23db007d00",
-        "cef3b755-2e75-4620-b8ea-14d779f82cc1",
-        "1e24e03e-e26f-4be2-8a31-c49cc555df1d"
-      ],
-      "settings": {
-        "lemotitle": "FAITES DE CHAQUE PAS UNE EXPÉRIENCE INOUBLIABLE !",
-        "lenosub": "Tellement confortable que vous voudriez dormir avec",
-        "font_size": 30,
-        "font_size2": 18,
-        "image1": "shopify:\/\/shop_images\/yellow-socks.gif"
-      }
     }
   },
   "order": [
@@ -418,8 +420,8 @@
     "featured_collection",
     "2786dc0b-32aa-45d0-88e5-d88e1254a65f",
     "da37001e-c5eb-4e64-b572-b72ae64f33f2",
+    "0c505836-cc57-4376-9313-241a04c20949",
     "18c70db3-b7d4-4670-a7b7-e7040630bae3",
-    "cea45325-dadd-42d6-a536-ca19efe8a689",
-    "0c505836-cc57-4376-9313-241a04c20949"
+    "cea45325-dadd-42d6-a536-ca19efe8a689"
   ]
 }
