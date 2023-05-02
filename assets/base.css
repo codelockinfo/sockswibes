@@ -4124,6 +4124,10 @@ form.needsclick {
 .Main-cls  .subtitle{
     text-align: center;
 }
+.imgcont{
+      margin: 0 auto;
+
+}
   @media(max-width:600px){
   
     .main-section{
