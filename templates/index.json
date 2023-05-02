@@ -366,11 +366,48 @@
     },
     "0c505836-cc57-4376-9313-241a04c20949": {
       "type": "custom_image_text",
+      "blocks": {
+        "7854911e-9065-4191-98d0-c0202c30cf08": {
+          "type": "block",
+          "settings": {
+            "subtitle": "FIL D'ECOSSE HAUTE QUALITE",
+            "font_size3": 16
+          }
+        },
+        "cd1f44a6-9865-4258-aecc-8f23db007d00": {
+          "type": "block",
+          "settings": {
+            "subtitle": "RAFINÉE ET INTEMPORELLE",
+            "font_size3": 16
+          }
+        },
+        "cef3b755-2e75-4620-b8ea-14d779f82cc1": {
+          "type": "block",
+          "settings": {
+            "subtitle": "DURABILITÉ ET RESISTANCE",
+            "font_size3": 16
+          }
+        },
+        "1e24e03e-e26f-4be2-8a31-c49cc555df1d": {
+          "type": "block",
+          "settings": {
+            "subtitle": "CHAUSSETTE RESPIRANTE",
+            "font_size3": 16
+          }
+        }
+      },
+      "block_order": [
+        "7854911e-9065-4191-98d0-c0202c30cf08",
+        "cd1f44a6-9865-4258-aecc-8f23db007d00",
+        "cef3b755-2e75-4620-b8ea-14d779f82cc1",
+        "1e24e03e-e26f-4be2-8a31-c49cc555df1d"
+      ],
       "settings": {
         "lemotitle": "FAITES DE CHAQUE PAS UNE EXPÉRIENCE INOUBLIABLE !",
         "lenosub": "Tellement confortable que vous voudriez dormir avec",
         "font_size": 30,
-        "font_size2": 18
+        "font_size2": 18,
+        "image1": "shopify:\/\/shop_images\/ezgif-4-0c27479a64.gif"
       }
     }
   },
