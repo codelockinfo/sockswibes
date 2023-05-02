@@ -4099,8 +4099,8 @@ form.needsclick {
 }
 /* add by cls003 */
 .Main-cls{
-    max-width: 100%;
-    width: 100%;
+/*     max-width: 100%;
+    width: 100%; */
   }
   .main-section{
     display: flex;
@@ -4118,16 +4118,15 @@ form.needsclick {
    .main-image img{
     width:100%;
   }
-.main-image .signlineflex{
-    border-top:unset;
-}
-.Main-cls  .subtitle{
-    text-align: center;
-}
-.imgcont{
-      margin: 0 auto;
-
-}
+  .main-image .signlineflex{
+      border-top:unset;
+  }
+  .Main-cls  .subtitle{
+      text-align: center;
+  }
+  .imgcont{
+        margin: 0 auto;
+  }
   @media(max-width:749px){
   
     .main-section{
