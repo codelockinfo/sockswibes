@@ -294,7 +294,8 @@
           "settings": {
             "kome": "shopify:\/\/shop_images\/ezgif-4-0c27479a64.gif",
             "subtitle": "FIL D'ECOSSE  HAUTE QUALITE",
-            "font_size3": 16
+            "font_size3": 16,
+            "background": "#bc6c25"
           }
         },
         "ca5c5473-56cc-43ad-8227-0727e7ada6a6": {
@@ -302,7 +303,8 @@
           "settings": {
             "kome": "shopify:\/\/shop_images\/metro.gif",
             "subtitle": "RAFINÉE ET INTEMPORELLE",
-            "font_size3": 16
+            "font_size3": 16,
+            "background": "#f04b6e"
           }
         },
         "fbf0a9cf-8c64-4fd3-96c8-e9b0ae9e73b1": {
@@ -310,7 +312,8 @@
           "settings": {
             "kome": "shopify:\/\/shop_images\/tirroir_gift.gif",
             "subtitle": "DURABILITÉ ET RESISTANCE",
-            "font_size3": 16
+            "font_size3": 16,
+            "background": ""
           }
         },
         "9ebe8119-c81a-4089-a21f-2d46a0988e9d": {
@@ -318,7 +321,8 @@
           "settings": {
             "kome": "shopify:\/\/shop_images\/yellow-socks.gif",
             "subtitle": "CHAUSSETTE RESPIRANTE",
-            "font_size3": 16
+            "font_size3": 16,
+            "background": ""
           }
         }
       },
