@@ -4121,6 +4121,7 @@ form.needsclick {
   .main-image .signlineflex{
       border-top:unset;
       width: 100%;
+    padding:0;
   }
   .Main-cls  .subtitle{
       text-align: center;
