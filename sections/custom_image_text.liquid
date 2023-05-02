@@ -1,14 +1,8 @@
 <div class="Main-cls">
-   <div class="main-heading">
-        <h2
-              style="font-size: {{ block.settings.font_size1 }}px;"
-                class="  image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
-                {{ block.shopify_attributes }}
-              >
-                 {{ block.settings.heading }}
-              </h2>
-      <h3 class="section-title"> <span class="mr__10 ml__10"> {{ section.settings.heading }}</span> </h3>
-   </div>
+    <div class="lemmantitle">
+      <h2 class="lemtitle" style="font-size: {{ section.settings.font_size }}px;">{{ section.settings.lemotitle }}</h2>
+      <h4 class="subtitle" style="font-size: {{ section.settings.font_size2 }}px;">{{ section.settings.lenosub }}</h4>
+    </div>
    <div class="main-section">
       <div class="main-image">
          <img src="{{ section.settings.image1 | img_url:'master' }}">
