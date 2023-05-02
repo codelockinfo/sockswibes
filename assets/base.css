@@ -3363,9 +3363,7 @@ h1,h2,h3,h4,h5,p,a{
     padding: 10px;
     border-radius: 50%;
 }
-.main-image .signlineflex{
-      border-top:unset;
-}
+
 .subtitle {
     font-size: 24px;
     text-align: left;
@@ -4099,3 +4097,11 @@ form.needsclick {
       padding: 13px 4px;
 
 }
+/* add by cls003 */
+.main-image .signlineflex{
+    border-top:unset;
+}
+.main-image .subtitle{
+    text-align: center;
+}
+/*end by cls003  */
